@@ -7,16 +7,21 @@ let category;
 let secretTip;
 let ruleBook;
 
+assembleRandomWords ();
+function assembleRandomWords () { 
+    const indexPalavra = parseInt(Math.random() * palavras.length); 
+    secretWord = palavras[indexPalavra].nome;
+    category = palavras[indexPalavra].categoria;
+    Clue = palavras[indexPalavra].dica;
+};
+//console.log(assembleRandomWords ());
+
 assembleWords ();
-function assembleWords (){ 
+function assembleWords () { 
 
-    const indexPalavra = parseInt(Math.random() * palavras.length) 
 
-    secretWord = palavras[indexPalavra].nome 
-
-    category = palavras[indexPalavra].categoria 
-
-    Clue = palavras[indexPalavra].dica 
-
-    }; 
-    console.log(assembleWords ());
+    secretWord = palavras[indexPalavra].nome;
+    category = palavras[indexPalavra].categoria;
+    Clue = palavras[indexPalavra].dica;
+};
+//console.log(assembleWords ());

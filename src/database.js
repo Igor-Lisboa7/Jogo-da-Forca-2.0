@@ -1,6 +1,6 @@
 module.exports = {
 
-    //Regras...
+    // Rules...
     rules: [
 
         article01={
@@ -16,7 +16,7 @@ module.exports = {
         },
 
         article04={
-            paragraph:"Você GANHA uma VIDA adicional toda vez que ACERTAR uma palavra sem PERDER mais de 5 TENTATIVAS."
+            paragraph:"Você GANHA uma VIDA adicional toda vez que ACERTAR uma palavra sem PERDER mais de 5 TENTATIVAS, quando a vida chegar a 0 será GAMER OVER!"
         },
         
         article05={
@@ -36,7 +36,7 @@ module.exports = {
         },
       
         article09={
-            paragraph:" ATENÇÃO! Não adianta deixar para usar a dica faltando uma tentativa, se tentar isso PERDERÁ 1 VIDA automaticamente."
+            paragraph:"ATENÇÃO! Não adianta deixar para usar a dica faltando uma tentativa, se tentar isso PERDERÁ 1 VIDA automaticamente."
         },
 
         article10={
@@ -45,7 +45,9 @@ module.exports = {
 
     ],
 
-    // Seções...
+    // Levels...
+
+    // País:
     level01: [
         challenge01 = {
             word: "BRASIL",
@@ -169,6 +171,7 @@ module.exports = {
         
     ],
 
+    // Animais:
     level02: [
 
         challenge01 = {
@@ -293,6 +296,7 @@ module.exports = {
         
     ],
 
+    // Futebol BR:
     level03: [
 
         challenge01 = {
@@ -417,6 +421,7 @@ module.exports = {
         
     ],
 
+    // Profissão:
     level04: [
 
         challenge01 = {
@@ -541,6 +546,7 @@ module.exports = {
         
     ],
 
+    
      level05: [
 
         challenge01 = {
