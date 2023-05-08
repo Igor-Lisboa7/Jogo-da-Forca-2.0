@@ -1,0 +1,219 @@
+
+header{
+    margin: 0px 0px 10px 0px;
+}
+#container{
+    margin-top: 50px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#challenge{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    width: 720px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
+    background-color: rgba(187, 183, 183, 0.664);
+} 
+
+#sub-container{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    width: 700px;
+    height: 800px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgba(187, 183, 183, 0.664);
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+#box-challenge{
+    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 500px;
+    justify-content: center;
+    margin-bottom: 50px;
+    /* box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.76);
+    border-radius: 20px;
+    background-color: rgba(43, 12, 80, 0); */
+}
+
+/* Quadro Menu Level */
+.frame {
+    display: flex;
+    cursor: pointer;
+    margin: auto;
+    align-items: center;
+    background-color: transparent;
+    width: 270px;
+    height: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.61);
+  }  
+
+  #frame1 {
+    background-image: url("/image/Level-Menu/País.png");
+  }  
+  
+
+  .frame div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(5px);
+    width: 269px;
+    height: 89px;
+    border-radius: 6px;
+    overflow: hidden;
+    
+  }
+
+ 
+  .frame div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    width: 269px;
+    height: 89px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: backdrop-filter 0.7s;
+
+  }
+
+  .text{
+    color: rgb(239, 184, 16);
+    transition: color 0.5s;
+
+  }
+
+  .frame div:hover .text{
+    color: rgba(255, 255, 255, 0);
+    transition: color 0.5s;
+
+
+  }
+
+
+  #frame2 {
+     background-image: url("/image/Level-Menu/2Animais.jpg"); 
+  }
+
+  
+
+  #frame3 {
+    background-image: url("/image/Level-Menu/3Futebol.jpg");
+  }  
+
+  #frame4 {
+    background-image: url("/image/Level-Menu/4Profissão01.jpg");
+  }  
+
+  #frame5 {
+    background-image: url("/image/Level-Menu/5Jogos.jpg");
+  }  
+
+  #frame6 {
+    background-image: url("/image/Level-Menu/1Filme.jpeg");
+  }  
+
+  #frame7 {
+    background-image: url("/image/Level-Menu/7Seriados.jpg");
+  }  
+
+  #frame8 {
+    background-image: url("/image/Level-Menu/livros.jpeg");
+  }  
+
+  #frame9 {
+    display: flex;
+    cursor: pointer;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 90px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.61);
+    background-image: url("/image/Level-Menu/2AnimaisReverso.jpg");
+  }  
+
+  #frame9 div{
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(5px);
+    width: 269px;
+    height: 89px;
+    border-radius: 6px;
+  }
+
+  #frame9 div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    width: 269px;
+    height: 89px;
+    border-radius: 6px;
+  }
+
+  #frame10 {
+    display: flex;
+    cursor: pointer;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 90px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.61);
+    background-image: url("/image/Level-Menu/PaísReverso.png");
+  }  
+
+  #frame10 div{
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(5px);
+    width: 269px;
+    height: 89px;
+    border-radius: 6px;
+  }
+
+  #frame10 div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    width: 269px;
+    height: 89px;
+    border-radius: 6px;
+  }
+
+  #about a{
+    color: white;
+}
+  /* QUadro Menu Level */
+

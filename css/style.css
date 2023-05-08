@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Inicio header */
+/* header{
+    padding: 15px;
+    text-decoration: none;
+    color: #919496;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.932);
+    box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
+    
+}
+
+#btn-menu{
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#btn-menu{
+    margin: 10px 10px 10px 10px;*/
+
+header a{
+        
+    color: #919496;
+}
+
+.list{
+  
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/* Final header */
+
+
+body{
+    width: 100%;
+    background-image: url("/image/background/homePage.jpg");
+}
+
+#buttons{
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(187, 183, 183, 0.664);
+}
+
+#buttons button a{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+
+
+
+footer{
+    color: #919496;
+    font-size: 12px;
+    line-height: 1.4;
+    align-items: center;
+    justify-content: center;
+}
+
+#modelar a{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+    align-content: flex-end;
+    
+}
+
+
+
+#navv{
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#modelar{
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+}

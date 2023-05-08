@@ -1,0 +1,45 @@
+#container{
+    margin-top: 50px;
+    font-family: 'Cormorant Garamond', serif;
+}
+#sub-container{
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    width: 700px;
+    height: 800px;
+    border: 2px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
+    background-color: rgba(0, 0, 0, 0.527);
+    justify-content: space-around;
+    align-content: center;
+}
+
+ #game-start{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#game-start button a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.text{
+    width: 5002222px;
+}
+
+
+
+/* #textarea{
+    width: 2500px;
+} */

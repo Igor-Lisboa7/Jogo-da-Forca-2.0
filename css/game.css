@@ -1,0 +1,150 @@
+#container{
+    font-family: 'Cormorant Garamond', serif;
+}
+#sub-container{
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    width: 720px;
+    height: 920px;
+    border: 2px;
+    border-radius: 5px;
+    background-color: rgba(221, 185, 214, 0.253);
+}
+
+#box{
+    background-image: url("../image/background/fundo-box.jpg");
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    width: 510px;
+    height: 600px;
+    align-items: center;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
+}
+
+#life-score-name{
+    border: 2px;
+    border-radius: 5px;
+    padding: 5px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(102, 13, 86, 0.733);
+    color: rgb(255, 255, 255);
+    
+
+}
+
+#name h5 p{
+    font-family: 'Caveat', cursive;
+    display: inline;
+}
+
+#life h5 p{
+    font-family: 'Caveat', cursive;
+    display: inline;
+}
+
+#attempts h5 p{
+    font-family: 'Caveat', cursive;
+    display: inline;
+}
+
+
+#score h5 p{
+    font-family: 'Caveat', cursive;
+    display: inline;
+}
+
+
+#forca{
+    margin: auto;
+    text-align: center;
+    width: 270px;
+    height: 400px;
+    
+    
+    
+
+}
+
+#image img{
+    width: 250px;
+}
+
+#secret-word{
+    width: 90%;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    margin: auto;
+    border: 2px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(221, 185, 214, 0.253);
+    color: rgb(255, 255, 255);
+}
+
+#dicas{
+    width: 90%;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(221, 185, 214, 0.253);
+    color: rgb(255, 255, 255);
+    border: 2px;
+    border-radius: 5px;
+    
+}
+
+#keyboard{
+    text-align: center;
+    margin: 50px 0px 25px 0px;
+    
+}
+
+.keys button{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0) ;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+    color: #120333;
+    font-weight: 500;
+}
+
+.keys2 button{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0) ;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+    color: #120333;
+    font-weight: 500;
+} 
+
+#category{
+    justify-content: center;
+    width: 15%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0) ;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
