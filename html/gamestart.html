@@ -4,118 +4,196 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modo Aleatório</title>
+    
+    <!-- Inicio Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Final Bootstrap -->
+
+    <!-- Inicio Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <!-- Final Fontes -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/game.css">
+
+    <title>Modo Crescente</title>
 </head>
 
 <body>
 
     <header>
-        <button><p>Menu</p></button>
-        <ul id="list">
-                <li><a href="./homepage.html">Home</a></li>
-                <li><a href="./levelmenu.html">Level Menu</a></li>
-                <li><a href="./modoaleatorio.html">Modo Aleatório</a></li>
-                <li>Dark Mod</li>
-        </ul>
+
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./praisebugs.html">Dark Mod</a>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./homepage.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./levelmenu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./modoaleatorio.html">Modo Aleatório</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        
+        
     </header>
 
     <main>
+        <article id="container"> 
+            <div id="sub-container">
+                <!-- <div id="you-win"> <img src="../image/Personagems/Principal/bigWin.png" alt=""> </div> -->
+                <div id="box">
+                    <div id="life-score-name">
 
-        <article id="container">   
-            
-            <h1> Jogo da Forca 2.0 Modo Aleatório</h1>
-            
-            <div id="life">
-                <h3>VIDAS: <p id="change1">5</p></h3>
+                        
+                        <div id="name">
+                            <h5>Nome: <p id="nick-name">Igor Lisboa</p></h5>
+                        </div>
+
+
+                        <div id="life">
+                            <h5>Vidas: <p id="change1">5</p></h5>
+                        </div>
+
+                        <div id="attempts">
+                            <h5>Tentativas: <p id="change32">6</p></h5>
+                        </div>
+
+
+                        <div id="score">
+                            <h5>Pontos: <p id="change3">0</p></h5>
+                        </div>
+                    </div>
+                    <div id="forca">
+                        <hr class="break">
+                        <div id="image">
+                            <img src="../image/Personagems/Principal/forca7.png" alt="">
+                        </div>
+                    </div>  
+
+                    <div id="secret-word"> PORTUGAL</div>
+                    <div id="dicas">Metade do 'antigo' novo mundo já me pertenceu, e fui o Primeiro imperio global da historia.</div>
+                </div>
+                <div id="keyboard">
+                    <div class="keys">
+                        <button id="tecla-Q" onclick="verificaLetraEscolhida('Q')">Q</button>
+                        <button id="tecla-W" onclick="verificaLetraEscolhida('W')">W</button>
+                        <button id="tecla-E" onclick="verificaLetraEscolhida('E')">E</button>
+                        <button id="tecla-R" onclick="verificaLetraEscolhida('R')">R</button>
+                        <button id="tecla-T" onclick="verificaLetraEscolhida('T')">T</button>
+                        <button id="tecla-Y" onclick="verificaLetraEscolhida('Y')">Y</button>
+                        <button id="tecla-U" onclick="verificaLetraEscolhida('U')">U</button>
+                        <button id="tecla-I" onclick="verificaLetraEscolhida('I')">I</button>
+                        <button id="tecla-O" onclick="verificaLetraEscolhida('O')">O</button>
+                        <button id="tecla-P" onclick="verificaLetraEscolhida('P')">P</button>
+                    </div>
+                    <div class="keys">
+                        <button id="tecla-A" onclick="verificaLetraEscolhida('A')">A</button>
+                        <button id="tecla-S" onclick="verificaLetraEscolhida('S')">S</button>
+                        <button id="tecla-D" onclick="verificaLetraEscolhida('D')">D</button>
+                        <button id="tecla-F" onclick="verificaLetraEscolhida('F')">F</button>
+                        <button id="tecla-G" onclick="verificaLetraEscolhida('G')">G</button>
+                        <button id="tecla-H" onclick="verificaLetraEscolhida('H')">H</button>
+                        <button id="tecla-J" onclick="verificaLetraEscolhida('J')">J</button>
+                        <button id="tecla-K" onclick="verificaLetraEscolhida('K')">K</button>
+                        <button id="tecla-L" onclick="verificaLetraEscolhida('L')">L</button>
+                        <button id="tecla-Ç" onclick="verificaLetraEscolhida('Ç')">Ç</button>
+                    </div>
+                    <div class="keys2">
+                        <button id="tecla-Z" onclick="verificaLetraEscolhida('Z')">Z</button>
+                        <button id="tecla-X" onclick="verificaLetraEscolhida('X')">X</button>
+                        <button id="tecla-C" onclick="verificaLetraEscolhida('C')">C</button>
+                        <button id="tecla-V" onclick="verificaLetraEscolhida('V')">V</button>
+                        <button id="tecla-B" onclick="verificaLetraEscolhida('B')">B</button>
+                        <button id="tecla-N" onclick="verificaLetraEscolhida('N')">N</button>
+                        <button id="tecla-M" onclick="verificaLetraEscolhida('M')">M</button>    
+                        <button id="btnDica" >⁉️</button>
+                        <button id="btnReiniciar">🎮</button>                
+                    </div>
+                </div>
+
+                <div id="category">PAÍS</div>
             </div>
 
-            <div id="score">
-                <h3>Pontos: <p id="change2">0</p></h3>
-            </div>
-            
-            <hr class="break">
-            <div id="img">Imagem Forca</div>
-
-            <div id="secret-word"> Palavra Secreta</div>
-
-            <hr class="break">
-
-            <div id="keyboard">
-                <div class="keys">
-                    <button id="tecla-Q" onclick="verificaLetraEscolhida('Q')">Q</button>
-                    <button id="tecla-W" onclick="verificaLetraEscolhida('W')">W</button>
-                    <button id="tecla-E" onclick="verificaLetraEscolhida('E')">E</button>
-                    <button id="tecla-R" onclick="verificaLetraEscolhida('R')">R</button>
-                    <button id="tecla-T" onclick="verificaLetraEscolhida('T')">T</button>
-                    <button id="tecla-Y" onclick="verificaLetraEscolhida('Y')">Y</button>
-                    <button id="tecla-U" onclick="verificaLetraEscolhida('U')">U</button>
-                    <button id="tecla-I" onclick="verificaLetraEscolhida('I')">I</button>
-                    <button id="tecla-O" onclick="verificaLetraEscolhida('O')">O</button>
-                    <button id="tecla-P" onclick="verificaLetraEscolhida('P')">P</button>
-                </div>
-                <div class="keys">
-                    <button id="tecla-A" onclick="verificaLetraEscolhida('A')">A</button>
-                    <button id="tecla-S" onclick="verificaLetraEscolhida('S')">S</button>
-                    <button id="tecla-D" onclick="verificaLetraEscolhida('D')">D</button>
-                    <button id="tecla-F" onclick="verificaLetraEscolhida('F')">F</button>
-                    <button id="tecla-G" onclick="verificaLetraEscolhida('G')">G</button>
-                    <button id="tecla-H" onclick="verificaLetraEscolhida('H')">H</button>
-                    <button id="tecla-J" onclick="verificaLetraEscolhida('J')">J</button>
-                    <button id="tecla-K" onclick="verificaLetraEscolhida('K')">K</button>
-                    <button id="tecla-L" onclick="verificaLetraEscolhida('L')">L</button>
-                    <button id="tecla-Ç" onclick="verificaLetraEscolhida('Ç')">Ç</button>
-                </div>
-                <div class="keys2">
-                    <button id="tecla-Z" onclick="verificaLetraEscolhida('Z')">Z</button>
-                    <button id="tecla-X" onclick="verificaLetraEscolhida('X')">X</button>
-                    <button id="tecla-C" onclick="verificaLetraEscolhida('C')">C</button>
-                    <button id="tecla-V" onclick="verificaLetraEscolhida('V')">V</button>
-                    <button id="tecla-B" onclick="verificaLetraEscolhida('B')">B</button>
-                    <button id="tecla-N" onclick="verificaLetraEscolhida('N')">N</button>
-                    <button id="tecla-M" onclick="verificaLetraEscolhida('M')">M</button>    
-                    <button id="btnDica" >⁉️</button>
-                    <button id="btnReiniciar">🎮</button>                
-                </div>
-            </div>
-                
-            <hr class="break">
-
-            <div id="category">Categoria</div>
-
-            <div id="dicas">Dica</div>
-
-            <hr>
-
-            <aside id="rule-book">
-                <button>Regras do Jogo</button>
-            </aside>
-
-            <aside id="praise-bugs">
-                <button><a href="./praisebugs.html">Bugs e/ou Elogios</a></button>
-            </aside>
-        
-
-            <aside id="donation">
-                <button><a href="">Doe qualqer quantia e <br> ajude o Jogo a se manter no Ar</a></button>
-               <img src="" alt=""> 
-            </aside>
         </article>
+        <article>
+            <div id="buttons">
+                <!-- Inicio Modal -->
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">Regras Gerais</button>
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="exampleModalLongTitle"> Regras Gerais</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                            <h5>ATENÇÃO</h5>
+                            <p>Este botão <a href="#" role="button" class="btn btn-light" title="Popover title" data-content="Popover body content is set in this attribute.">⁉️</a> é o botão da DICA.</p>
+                            <hr>
+                            <h5>ATENÇÃO</h5>
+                            <p>Este botão <a href="#" role="button" class="btn btn-light" title="Popover title" data-content="Popover body content is set in this attribute.">🎮</a> é o botão de reiniciar o Jogo.</p>
+                            <hr>
+                            <h5>Regras Gerais</h5>
+                            <p> 1- O jogo começa com 5 VIDAS, quando chegar a 0 será GAMER OVER!</p>
+                            <p> 2- Você terá 06 TENTATIVAS para ACERTAR a palavra secreta.</p>
+                            <p> 3- Após PERDER 6 TENTATIVAS você PERDE uma VIDA, e recomeça da palavra que parou.</p>
+                            <p> 4- Você GANHA uma VIDA adicional toda vez que ACERTAR uma palavra sem PERDER mais de 5 TENTATIVAS.</p>
+                            <p> 5- Ao ACERTAR a palavra secreta clique na tecla que estará piscando para o proximo desafio.</p>
+                            <p> 6- A cada LETRA ACERTADA te renderá 2 pontos, A cada ERRO você PERDERÁ 1 ponto.</p>
+                            <p> 7- Após juntar 5 pontos você terá uma 'DICA' clicando sobre a tecla: '!?'</p>
+                            <p> 8- ATENÇÃO! Caso aceite ajuda da 'DICA' você PERDERÁ DUAS TENTATIVAS no proximo erro.</p>
+                            <p> 9- ATENÇÃO! Não adianta deixar para usar a dica faltando uma tentativa, se tentar isso PERDERÁ 1 VIDA automaticamente.</p>
+                            <p> 10-ATENÇÃO! No "Modo Aleatório" não tem "VIDAS" apenas as 6 tentativas permanecem valendo, nesse modo pedemos jogar a vontade.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Final Modal -->
+
+                <aside id="praise-bugs">
+                    <a class="btn btn-info" href="./praisebugs.html" role="button">Bugs ou Elogios</a>
+                </aside>
+            </div>
+        </article>
+        
     </main>
 
+   <nav class="navbar navbar-dark bg-dark">
+        <div id="modelar">
+            <div><a href="https://github.com/Igor-Lisboa7" target="_blank">GitHub</a></div>
+            <div> | </div>
+            <div><a href="https://www.linkedin.com/in/igor-lisboa-384a2311b/" target="_blank">Linkedin</a></div>
+            <div> | </div>
+            <div class="space"><a href="https://www.instagram.com/_igor_lisboa_/" target="_blank">Instagram</a></div>
+        </div>
+        
+    </nav>
     <footer>
-        <nav>
-            <ul id="list">
-                <h2>Siga-nos:</h2>
-                <li><a href="https://github.com/Igor-Lisboa7" target="_blank">GitHub</a></li>
-                <li>|</li>
-                <li><a href="https://www.linkedin.com/in/igor-lisboa-384a2311b/" target="_blank">Linkedin</a></li>
-                <li>|</li>
-                <li><a href="https://www.instagram.com/_igor_lisboa_/" target="_blank">Instagram</a></li>
-            </ul>
-        </nav>
-        <div id="copyright"><p>© Por Igor Resende Lisboa 2023</p> </div>
+        <nav id="navv" class="navbar navbar-dark bg-dark"><div id="copyright"><p>© Igor Resende Lisboa 2023</p> </div></nav>
     </footer>
 
+
+    <!-- <script></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
 
