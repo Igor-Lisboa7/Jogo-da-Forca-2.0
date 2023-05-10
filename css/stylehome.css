@@ -67,6 +67,237 @@
 
 #label-infos{
     color: black;
-    position: static;
+    position: static;   
+}
+
+#btn-id{
+    width: 75px;
+    height: 30px; 
+    font-size: 15px;
+    padding:0;
+}
+
+#input-box{
+    margin-left: 5px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+}
+
+#input-name{
+    border: 1px solid rgba(129, 129, 129, 0.589);
+    width: 100px;
+    height: 30px;
     
+}
+
+#modelar > div > a{
+    margin: 0px 10px 0px 10px;
+}
+
+@media (max-width: 768px) {
+
+    #welcome{
+        width: 620px;  
+        font-size: 40px; 
+        
+    }
+
+    #parchment{
+        width: 620px;
+        font-size: 15px;
+        background-image: url("/image/background/responsividade/1Pergaminho.png");
+        
+    }
+
+    #input-box{
+        margin-left: 5px;
+        display: inline-flex;
+        width: 15px;
+        height: 15px;
+    }
+
+    #input-name{
+        width: 85px;
+        height: 20px;
+        
+    }
+
+    #btn-id{
+        width: 75px;
+        height: 20px; 
+        font-size: 15px;
+        padding:0;
+    }
+
+    #left{
+        padding: 5px;
+        width: 100px;
+        font-size: 14px;
+    }
+
+    #half{
+        padding: 5px;
+        width: 200px;
+        font-size: 14px;
+    }
+
+    #right{
+        padding: 5px;
+        width: 100px;
+        font-size: 14px;
+    }
+
+    header > nav .navbar{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 620px) {
+    #welcome{
+        width: 400px;
+        font-size: 28px; 
+    }
+
+    #parchment{
+        width: 400px;
+        height: 850px;
+        font-size: 11px;
+        background-image: url("/image/background/responsividade/2Pergaminho.png");
+        
+    }
+
+    #rule-book{
+        width: 326px;
+    }
+
+    #input-name{
+        width: 80px;
+        height: 18px;
+        font-size: 13px;
+    }
+
+    #btn-id{
+        width: 70px;
+        height: 18px; 
+        font-size: 13px;
+        padding:0;
+    }
+
+    #input-box{
+        margin-left: 5px;
+        display: inline-flex;
+        width: 10px;
+        height: 10px;
+    }
+
+    #left{
+        padding: 5px;
+        width: 75px;
+        font-size: 12px;
+    }
+
+    #half{
+        padding: 6px;
+        width: 160px;
+        font-size: 11px;
+    }
+
+    #right{
+        padding: 6px;
+        width: 76px;
+        font-size: 11px;
+    }
+
+    header > nav .navbar{
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 430px) {
+
+    #disappear{
+        display: none;
+    }
+    #disappear-two{
+        display: block;
+    }
+
+    #welcome{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    #parchment{
+        background-color: rgba(90, 80, 60, 0.35);
+        width: 300px;
+        height: 840px;
+        font-size: 11px;
+        background-image: url("/image/background/responsividade/3Pergaminho.png");
+        
+    }
+
+    #rule-book{
+        margin: 0px 0px 0px -10px;
+        width: 220px;
+        height: 740px;
+    }
+
+    #input-name{
+        width: 70px;
+        height: 15px;
+        font-size: 11px;
+    }
+
+    #btn-id{
+        width: 60px;
+        height: 15px; 
+        font-size: 11px;
+        padding:0;
+    }
+
+    #input-box{
+        margin-left: 5px;
+        display: inline-flex;
+        width: 10px;
+        height: 10px;
+    }
+
+    #left{
+        padding: 5px;
+        width: 55px;
+        font-size: 9px;
+    }
+
+    #half{
+        margin: 0px 10px 0px 10px;
+        padding: 6px;
+        width: 100px;
+        font-size: 9px;
+    }
+
+    #right{
+        padding: 6px;
+        width: 60px;
+        font-size: 9px;
+    }
+
+    header > nav .navbar{
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 309px){
+    #disappear{
+        display: none;
+    }
+    #disappear-two{
+        display: block;
+    }
+
+    #welcome{
+        display: none; 
+    }
 }

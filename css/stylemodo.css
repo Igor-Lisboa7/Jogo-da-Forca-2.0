@@ -8,35 +8,46 @@
     width: 720px;
     height: 920px;
     border: 2px;
-    border-radius: 20px;
+    border-radius: 4px;
     box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
     background-color: rgba(221, 185, 214, 0.253);
 }
 
 #box{
+    padding: 10px 10px 10px 10px;
     background-image: url("../image/background/modo-aleatorio.png");
     margin: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.966);
     width: 510px;
     height: 600px;
     align-items: center;
     border: 2px;
     border-radius: 20px;
-    box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
+    
 }
 
 #life-score{
     border: 2px;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 5px 10px 0px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: rgba(102, 13, 86, 0.733);
+    background-color: rgba(138, 14, 113, 0.651);
     color: rgb(255, 255, 255);
     
 
+}
+
+#name h5 p{
+    font-family: 'Caveat', cursive;
+    display: inline;
+}
+
+#time h5 p{
+    font-family: 'Caveat', cursive;
+    display: inline;
 }
 
 #life h5 p{
@@ -137,4 +148,3 @@
     border-radius: 20px;
     border: 2px solid rgb(0, 0, 0);
 }
-
