@@ -1,9 +1,5 @@
-
-header{
-    margin: 0px 0px 10px 0px;
-}
 #container{
-    margin-top: 50px;
+    margin-top: 80px;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -14,7 +10,7 @@ header{
     padding: 10px;
     width: 720px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
@@ -147,7 +143,7 @@ header{
   }
 
   #frame11 {
-    background-image: url("/image/Level-Menu/Parte-2/3Esportes.jpg");
+    background-image: url("/image/Level-Menu/Parte-2/Instrumentos-Musicais.jpg");
   }  
 
   #frame12 {
@@ -254,4 +250,595 @@ header{
 }
   /* QUadro Menu Level */
 
+ @media (max-width: 778px){
+  #challenge{
+    width: 650px;
+  }
+  #sub-container{
+    width: 650px;
+  }
+  #box-challenge{
+    width: 500px;
+  }
+  #frame{
+    width: 244px;
+  }
+  #frame1{
+    width: 244px;
+  }
+  #frame2{
+    width: 244px;
+  }
  
+  #frame3{
+    width: 244px;
+  }
+ 
+  #frame4{
+    width: 244px;
+  }
+ 
+  #frame5{
+    width: 244px;
+  }
+ 
+  #frame6{
+    width: 244px;
+  }
+ 
+  #frame7{
+    width: 244px;
+  }
+ 
+  #frame8{
+    width: 244px;
+  }
+ 
+  #frame9{
+    width: 244px;
+  }
+ 
+  #frame10{
+    width: 244px;
+  }
+ 
+  #frame11{
+    width: 244px;
+  }
+ 
+  #frame12{
+    width: 244px;
+  }
+ 
+  #frame13{
+    width: 244px;
+  }
+ 
+  #frame14{
+    width: 244px;
+  }
+ 
+  #frame15{
+    width: 244px;
+  }
+ 
+  #frame16{
+    width: 244px;
+  }
+ 
+  #frame17{
+    width: 244px;
+  }
+ 
+  #frame18{
+    width: 244px;
+  }
+ 
+  #frame19{
+    width: 244px;
+  }
+ 
+  #frame20{
+    width: 244px;
+  }
+ 
+ }
+
+ @media (max-width: 650px){
+  h5{
+    font-size: 15px;
+  }
+  #challenge{
+    width: 500px;
+  }
+  #sub-container{
+    width: 516px;
+  }
+  #box-challenge{
+    width: 416px;
+  }
+  #frame1{
+      width: 205px;
+  }
+  #frame2{
+      width: 205px;
+  }
+ 
+  #frame3{
+      width: 205px;
+  }
+ 
+  #frame4{
+      width: 205px;
+  }
+ 
+  #frame5{
+      width: 205px;
+  }
+ 
+  #frame6{
+      width: 205px;
+  }
+ 
+  #frame7{
+      width: 205px;
+  }
+ 
+  #frame8{
+      width: 205px;
+  }
+ 
+  #frame9{
+      width: 205px;
+  }
+ 
+  #frame10{
+      width: 205px;
+  }
+ 
+  #frame11{
+      width: 205px;
+  }
+ 
+  #frame12{
+      width: 205px;
+  }
+ 
+  #frame13{
+      width: 205px;
+  }
+ 
+  #frame14{
+      width: 205px;
+  }
+ 
+  #frame15{
+      width: 205px;
+  }
+ 
+  #frame16{
+      width: 205px;
+  }
+ 
+  #frame17{
+      width: 205px;
+  }
+ 
+  #frame18{
+      width: 205px;
+  }
+ 
+  #frame19{
+      width: 205px;
+  }
+ 
+  #frame20{
+      width: 205px;
+  }
+ 
+ }
+
+ @media (max-width: 610px){
+  h5{
+    font-size: 14px;
+  }
+  #challenge{
+    width: 500px;
+  }
+  #sub-container{
+    width: 500px;
+  }
+  #box-challenge{
+    width: 400px;
+  }
+  #frame{
+     width: 195px;
+  }
+  #frame1{
+     width: 195px;
+  }
+  #frame2{
+     width: 195px;
+  }
+ 
+  #frame3{
+     width: 195px;
+  }
+ 
+  #frame4{
+     width: 195px;
+  }
+ 
+  #frame5{
+     width: 195px;
+  }
+ 
+  #frame6{
+     width: 195px;
+  }
+ 
+  #frame7{
+     width: 195px;
+  }
+ 
+  #frame8{
+     width: 195px;
+  }
+ 
+  #frame9{
+     width: 195px;
+  }
+ 
+  #frame10{
+     width: 195px;
+  }
+ 
+  #frame11{
+     width: 195px;
+  }
+ 
+  #frame12{
+     width: 195px;
+  }
+ 
+  #frame13{
+     width: 195px;
+  }
+ 
+  #frame14{
+     width: 195px;
+  }
+ 
+  #frame15{
+     width: 195px;
+  }
+ 
+  #frame16{
+     width: 195px;
+  }
+ 
+  #frame17{
+     width: 195px;
+  }
+ 
+  #frame18{
+     width: 195px;
+  }
+ 
+  #frame19{
+     width: 195px;
+  }
+ 
+  #frame20{
+     width: 195px;
+  }
+ 
+ }
+
+ @media (max-width: 499px){
+  h5{
+    font-size: 12px;
+  }
+  #challenge{
+    width: 366px;
+    font-size: 28px;
+  }
+  #sub-container{
+    width: 366px;
+  }
+  #box-challenge{
+    width: 350px;
+  }
+  #frame1{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Responsivo/País.png');
+  }
+  #frame2{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Responsivo/2Animais.jpg')
+  }
+ 
+  #frame3{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Responsivo/3Futebol.jpg')
+  }
+ 
+  #frame4{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Parte-2/Responsivo/1Frutas.jpg')
+  }
+ 
+  #frame5{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Responsivo/5Jogos.jpg')
+  }
+ 
+  #frame6{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Responsivo/1Filme.jpeg')
+  }
+ 
+  #frame7{
+      width: 170px;
+  }
+ 
+  #frame8{
+      width: 170px;
+  }
+ 
+  #frame9{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Responsivo/4Profissão01.jpg')
+  }
+ 
+  #frame10{
+      width: 170px;
+  }
+ 
+  #frame11{
+      width: 170px;
+  }
+ 
+  #frame12{
+      width: 170px;
+  }
+ 
+  #frame13{
+      width: 170px;
+  }
+ 
+  #frame14{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Parte-2/Responsivo/6Filosofos.jpeg')
+  }
+ 
+  #frame15{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Parte-2/Responsivo/7Geografia.jpg')
+  }
+ 
+  #frame16{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Parte-2/Responsivo/8Historia.jpeg')
+  }
+ 
+  #frame17{
+      width: 170px;
+  }
+ 
+  #frame18{
+      width: 170px;
+  }
+ 
+  #frame19{
+      width: 170px;
+      background-image: url('/image/Level-Menu/Responsivo/PaísReverso.png')
+  }
+ 
+  #frame20{
+      width: 170px;
+  }
+ 
+ }
+
+ @media (max-width: 375px){
+  #disappear{
+    display: none;
+  }
+  #disappear-two{
+    display: block;
+  }
+  h5{
+    font-size: 12px;
+  }
+  #challenge{
+    width: 299px;
+    font-size: 25px;
+  }
+  #sub-container{
+    width: 299px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  #box-challenge{
+    width: 299px;
+  }
+  #frame1{
+        width: 148px;
+  }
+  #frame2{
+        width: 148px;
+  }
+ 
+  #frame3{
+        width: 148px;
+  }
+ 
+  #frame4{
+        width: 148px;
+  }
+ 
+  #frame5{
+        width: 148px;
+  }
+ 
+  #frame6{
+        width: 148px;
+  }
+ 
+  #frame7{
+        width: 148px;
+  }
+ 
+  #frame8{
+        width: 148px;
+  }
+ 
+  #frame9{
+        width: 148px;
+  }
+ 
+  #frame10{
+        width: 148px;
+  }
+ 
+  #frame11{
+        width: 148px;
+  }
+ 
+  #frame12{
+        width: 148px;
+  }
+ 
+  #frame13{
+        width: 148px;
+  }
+ 
+  #frame14{
+        width: 148px;
+  }
+ 
+  #frame15{
+        width: 148px;
+  }
+ 
+  #frame16{
+        width: 148px;
+  }
+ 
+  #frame17{
+        width: 148px;
+  }
+ 
+  #frame18{
+        width: 148px;
+  }
+ 
+  #frame19{
+        width: 148px;
+  }
+ 
+  #frame20{
+        width: 148px;
+  }
+ }
+
+ @media (max-width: 300px){
+  #disappear{
+    display: none;
+  }
+  #disappear-two{
+    display: block;
+  }
+  h5{
+    font-size: 12px;
+  }
+  #challenge{
+    width: 279px;
+    font-size: 25px;
+  }
+  #sub-container{
+    width: 279px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  #box-challenge{
+    width: 279px;
+  }
+  #frame1{
+         width: 135px;
+  }
+  #frame2{
+         width: 135px;
+  }
+ 
+  #frame3{
+         width: 135px;
+  }
+ 
+  #frame4{
+         width: 135px;
+  }
+ 
+  #frame5{
+         width: 135px;
+  }
+ 
+  #frame6{
+         width: 135px;
+  }
+ 
+  #frame7{
+         width: 135px;
+  }
+ 
+  #frame8{
+         width: 135px;
+  }
+ 
+  #frame9{
+         width: 135px;
+  }
+ 
+  #frame10{
+         width: 135px;
+  }
+ 
+  #frame11{
+         width: 135px;
+  }
+ 
+  #frame12{
+         width: 135px;
+  }
+ 
+  #frame13{
+         width: 135px;
+  }
+ 
+  #frame14{
+         width: 135px;
+  }
+ 
+  #frame15{
+         width: 135px;
+  }
+ 
+  #frame16{
+         width: 135px;
+  }
+ 
+  #frame17{
+         width: 135px;
+  }
+ 
+  #frame18{
+         width: 135px;
+  }
+ 
+  #frame19{
+         width: 135px;
+  }
+ 
+  #frame20{
+         width: 135px;
+  }
+ }
