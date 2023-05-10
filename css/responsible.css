@@ -1,0 +1,8 @@
+
+@media (min-width: 319) {
+    #sub-container{
+        width: 310px;
+        height: 750px;
+        font-size: 11px;
+    }
+}

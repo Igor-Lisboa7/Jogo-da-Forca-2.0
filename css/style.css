@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -28,26 +28,31 @@
 #btn-menu{
     margin: 10px 10px 10px 10px;*/
 
-header a{
-        
+header a {
+
     color: #919496;
 }
 
-.list{
-  
+.list {
+
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
+
+#disappear-two {
+    display: none;
+}
+
 /* Final header */
 
 
-body{
+body {
     width: 100%;
     background-image: url("/image/background/homePage.jpg");
 }
 
-#buttons{
+#buttons {
     font-family: 'Cormorant Garamond', serif;
     margin-top: 50px;
     padding: 50px;
@@ -57,15 +62,24 @@ body{
     background-color: rgba(187, 183, 183, 0.664);
 }
 
-#buttons button a{
+#buttons button a {
     font-family: 'Cormorant Garamond', serif;
     color: white;
 }
 
 
 
+body>footer {
+    margin: auto;
+    background-color: #202020;
+    color: #919496;
+    font-size: 12px;
+}
 
-footer{
+footer nav {
+    padding: 5px;
+    display: flex;
+    background-color: #202020;
     color: #919496;
     font-size: 12px;
     line-height: 1.4;
@@ -73,7 +87,17 @@ footer{
     justify-content: center;
 }
 
-#modelar a{
+footer hr {
+    border: none;
+}
+
+#copyright>p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+#modelar a {
     flex-direction: row;
     flex-wrap: nowrap;
     display: flex;
@@ -81,19 +105,23 @@ footer{
     text-decoration: none;
     font-size: 12px;
     align-content: flex-end;
-    
+
 }
 
 
 
-#navv{
+#navv {
     justify-content: space-around;
     align-items: stretch;
 }
 
-#modelar{
+#modelar {
     display: flex;
     align-content: flex-end;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#modelar>div>a {
+    margin: 0px 10px 0px 10px;
 }

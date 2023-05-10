@@ -5,24 +5,24 @@
     padding: 30px;
     margin: auto;
     margin-top: 50px;
-    width: 720px;
+    width: 800px;
     height: 920px;
     border: 2px;
     border-radius: 5px;
-    background-color: rgba(221, 185, 214, 0.253);
+      background-color: rgba(221, 185, 214, 0.240);
 }
 
 #box{
-    background-image: url("../image/background/fundo-box.jpg");
+    background-image: url("../image/background/6background.png");
     margin: auto;
     padding: 5px;
-    background-color: rgb(0, 0, 0);
-    width: 510px;
+    background-color: rgb(20, 1, 1);
+    width: 515px;
     height: 600px;
     align-items: center;
     border: 2px;
     border-radius: 5px;
-    box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
+   
 }
 
 #life-score-name{
@@ -33,13 +33,18 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: rgba(102, 13, 86, 0.733);
+    background-color: rgba(221, 185, 214, 0.240);
     color: rgb(255, 255, 255);
     
 
 }
 
 #name h5 p{
+    font-family: 'Caveat', cursive;
+    display: inline;
+}
+
+#time h5 p{
     font-family: 'Caveat', cursive;
     display: inline;
 }
@@ -85,9 +90,9 @@
     border-radius: 5px;
     align-items: center;
     text-align: center;
-    background-color: rgba(221, 185, 214, 0.253);
+    background-color: rgba(221, 185, 214, 0.240);
     color: rgb(255, 255, 255);
-}
+}    
 
 #dicas{
     width: 90%;
@@ -96,7 +101,7 @@
     margin-top: 25px;
     align-items: center;
     text-align: center;
-    background-color: rgba(221, 185, 214, 0.253);
+    background-color: rgba(221, 185, 214, 0.240);
     color: rgb(255, 255, 255);
     border: 2px;
     border-radius: 5px;
