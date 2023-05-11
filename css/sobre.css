@@ -1,10 +1,11 @@
 body{
-    background-image: url('../image/background/background.jpg');
+  background-color: black;
 }
 
 
 #container{
-    margin-top: 50px;
+    background-image: url('../image/background/background.jpg');
+    /* margin-top: 25px; */
     font-family:'Times New Roman', Times, serif
 }
 #sub-container{
@@ -50,10 +51,11 @@ body{
 }
 
 @media (max-width: 768px) {
-    body{
+    #container{
         background-image: url('../image/background/responsividade/sobre/1background.jpg');
     }
     #sub-container{
+        
         width: 540px;
         height: 800px;
         font-size: 14px;
@@ -65,7 +67,7 @@ body{
 }
 
 @media (max-width: 600px) {
-    body{
+    #container{
         background-image: url('../image/background/responsividade/sobre/2background.jpg');
     }
 
@@ -87,10 +89,6 @@ body{
 
 @media (max-width: 430px) {
 
-    body{
-        background-image: url('../image/background/responsividade/sobre/3background.jpg');
-    }
-
     #game-start > button{
         font-size: 0.8em;
     }
@@ -102,22 +100,22 @@ body{
     #disappear-two{
         display: block;
     }
+    #container{
+        background-image: url('../image/background/responsividade/sobre/3background.jpg');
+    }
     #sub-container{
         width: 310px;
         height: 750px;
-        font-size: 11px;
+        font-size: 10px;
     }
 
-    header > nav .navbar{
-        justify-content: space-between;
-    }
 }
 
 @media (max-width: 309px){
     #sub-container{
         width: 225px;
         height: 700px;
-        font-size: 9px;
+        font-size: 8px;
     }
     
     #game-start > button{
