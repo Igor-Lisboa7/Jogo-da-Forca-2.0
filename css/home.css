@@ -1,8 +1,6 @@
-
 #container{
     margin: auto;
-    text-align: center;
-    margin-top: 50px;
+    text-align: center;   
 }
 
 #welcome{
@@ -12,10 +10,11 @@
     padding: 10px;
     width: 720px;
     margin: auto;
-    margin-top: 8px;
+    margin-top: 100px;
     text-align: center;
     border-radius: 5px;
-    background-color: rgba(90, 80, 60, 0.35);
+    backdrop-filter: blur(10px);
+    background-color: rgba(80, 79, 78, 0.4);
     box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
 } 
 
@@ -23,7 +22,8 @@
     font-family: 'Caveat', cursive;
     font-size: 1.1rem;
     background-image: url("/image/background/Pergaminho.png");
-    background-color: rgba(90, 80, 60, 0.35);
+    backdrop-filter: blur(5px);
+    background-color: rgba(80, 79, 78, 0.2);
     padding: 50px;
     width: 720px;
     height: 920px;
