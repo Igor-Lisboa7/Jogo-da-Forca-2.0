@@ -20,7 +20,7 @@ body > header > nav{
 }
 
 #box{
-    padding: 10px 10px 10px 10px;
+    padding-top: 5px;
     background-image: url("../image/background/modo-aleatorio.png");
     margin: auto;
     background-color: rgba(0, 0, 0, 0.966);
@@ -28,16 +28,18 @@ body > header > nav{
     height: 600px;
     align-items: center;
     border: 2px;
-    border-radius: 20px;
+    border-radius: 5px;
     
 }
 
 #life-score{
+    width: 95%;
+    margin: auto;
     border: 2px;
     border-radius: 5px;
-    padding: 5px 10px 0px 10px;
+    padding-top: 5px 15px 0px 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     text-align: center;
     background-color: rgba(138, 14, 113, 0.651);
@@ -84,12 +86,12 @@ body > header > nav{
 }
 
 #secret-word{
-    width: 90%;
+    width: 50%;
     padding: 5px 0px 5px 0px;
     text-align: center;
     margin: auto;
     border: 2px;
-    border-radius: 20px;
+    border-radius: 4px;
     align-items: center;
     text-align: center;
     background-color: rgba(221, 185, 214, 0.253);
@@ -97,7 +99,7 @@ body > header > nav{
 }
 
 #dicas{
-    width: 90%;
+    width: 80%;
     padding: 5px 5px 5px 5px;
     margin: auto;
     margin-top: 25px;
@@ -106,7 +108,7 @@ body > header > nav{
     background-color: rgba(221, 185, 214, 0.253);
     color: rgb(255, 255, 255);
     border: 2px;
-    border-radius: 20px;
+    border-radius: 4px;
     
 }
 
@@ -146,11 +148,327 @@ body > header > nav{
 
 #category{
     justify-content: center;
-    width: 15%;
-    padding: 5px;
+    width: 40%;
+    padding: 6px;
     text-align: center;
     margin: auto;
-    box-shadow: 0px 1px 2px rgb(0, 0, 0) ;
-    border-radius: 20px;
-    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(12px);
+    background-color: rgba(187, 183, 183, 0.664);
+    color: black;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.521) ;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+}
+
+
+@media (max-width: 800px) {
+    #sub-container{
+        width: 720px;
+        height: 880px;
+    }
+    #life-score-name{
+     width: 460px;
+     
+    }
+
+    h5{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    #box{
+        background-image: url("../image/background/responsividade/2modo-aleatorio.png");
+        width: 475px;
+        height: 560px;  
+    }
+    
+    #secret-word{
+        width: 350px;
+    }
+
+    #dicas{
+        width: 350px;
+        margin-top: 5px;
+    }
+
+    .keys button{
+    width: 45px;
+    height: 45px;
+    margin: 2px;
+    margin-bottom: 2px;
+    }
+
+    .keys2 button{
+        width: 45px;
+        height: 45px;
+        margin: 2px;
+        margin-bottom: 2px;
+    }
+
+    #buttons > button{
+        padding: 5px;
+        width: 170px;
+        font-size: 16px;
+    }
+
+    #praise-bugs > button{
+        padding: 6px;
+        width: 170px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 718px) {
+    #sub-container{
+        width: 585px;
+        height: 880px;
+    }
+    #buttons > button{
+        padding: 5px;
+        width: 160px;
+        font-size: 14px;
+    }
+
+    #praise-bugs > button{
+        padding: 6px;
+        width: 160px;
+        font-size: 14px;
+    }
+    /* 
+    #life-score-name{
+     width: 460px;
+     
+    }
+
+    h5{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    #box{
+        background-image: url("../image/background/6background.png");
+        width: 475px;
+        height: 560px;  
+    }
+    
+    #secret-word{
+        width: 350px;
+    }
+
+    #dicas{
+        width: 350px;
+        margin-top: 5px;
+    }
+
+    .keys button{
+    width: 45px;
+    height: 45px;
+    margin: 2px;
+    margin-bottom: 2px;
+    }
+
+    .keys2 button{
+        width: 45px;
+        height: 45px;
+        margin: 2px;
+        margin-bottom: 2px;
+    } */
+}
+
+@media (max-width: 585px) {
+    #sub-container{
+        width: 450px;
+        height: 880px;
+    }
+    #life-score-name{
+     width: 350px;
+     
+    }
+
+    h5{
+        font-size: 12px;
+    }
+    p{
+        font-size: 11px;
+    }
+
+    #box{
+        background-image: url("../image/background/responsividade/3modo-aleatorio.png");
+        width: 100%;
+        height: 560px;  
+    }
+    
+    #secret-word{
+    }
+
+    #dicas{
+        margin-top: 5px;
+    }
+
+    .keys button{
+    width: 31px;
+    height: 30px;
+    margin: 1px -1px 1px -1px;
+    box-shadow: none;
+    font-size: 0.8em;
+    }
+
+    .keys2 button{
+        width: 31px;
+        height: 30px;
+        margin: 1px -1px 1px -1px;
+        box-shadow: none;
+        font-size: 0.8em;
+    }
+
+    #buttons > button{
+        padding: 5px;
+        width: 110px;
+        font-size: 10px;
+    }
+
+    #praise-bugs > button{
+        padding: 6px;
+        width: 110px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 449px) {
+    #disappear{
+        display: none;
+    }
+    #disappear-two{
+        display: block;
+    }
+
+    #sub-container{
+        width: 360px;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0) ;
+    }
+    #life-score-name{
+     width: 90%;
+     
+    }
+
+    h5{
+        font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+
+    #box{
+        background-image: url("../image/background/responsividade/1modo-aleatorio.png");
+        width: 100%;
+        height: 545px;  
+        margin: 0;
+     
+    }
+    
+    #secret-word{
+        width: 50%;
+    }
+
+    #dicas{
+        width: 90%;
+        margin-top: 5px;
+    }
+
+    .keys button{
+    width: 28px;
+    height: 27px;
+    margin: 1px -1px 1px -1px;
+    box-shadow: none;
+    font-size: 0.8em;
+    }
+
+    .keys2 button{
+        width: 29px;
+        height: 27px;
+        margin: 1px -1px 1px -1px;
+        box-shadow: none;
+        font-size: 0.8em;
+    }
+
+    #buttons > button{
+        padding: 5px;
+        width: 80px;
+        font-size: 9px;
+    }
+
+    #praise-bugs > button{
+        padding: 6px;
+        width: 80px;
+        font-size: 9px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    #sub-container{
+        width: 100%;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0) ;
+    }
+    #life-score-name{
+     width: 90%;
+     
+    }
+
+    h5{
+        font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+
+    #box{
+        background-image: url("../image/background/responsividade/1modo-aleatorio.png");
+        width: 100%;
+        height: 545px;  
+        margin: 0;
+    }
+    
+    #secret-word{
+    }
+
+    #dicas{
+        margin-top: 5px;
+    }
+
+    .keys button{
+    width: 22px;
+    height: 19px;
+    margin: -1px -1px -1px -1px;
+    box-shadow: none;
+    font-size: 0.6em;
+    }
+
+    .keys2 button{
+        width: 23px;
+        height: 19px;
+        margin: -1px -1px -1px -1px;
+        box-shadow: none;
+        font-size: 0.6em;
+    }
+
+    #buttons > button{
+        padding: 5px;
+        width: 50px;
+        font-size: 7px;
+    }
+
+    #praise-bugs > button{
+        padding: 5px;
+        width: 50px;
+        font-size: 7px;
+    }
 }
