@@ -6,24 +6,24 @@ body > header > nav{
 #container{
     margin-top: 50px;
     font-family: 'Cormorant Garamond', serif;
+    background-image: url('../image/background/background3.jpeg');
 }
 #sub-container{
-    padding-top:  30px;
+    padding-top: 30px;
     margin: auto;
     margin-top: 100px;
     width: 720px;
     height: 920px;
     border: 2px;
     border-radius: 4px;
-    box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
-    background-color: rgba(221, 185, 214, 0.253);
+    background-color: rgba(14, 3, 11, 0.534);
 }
 
 #box{
     padding-top: 5px;
     background-image: url("../image/background/modo-aleatorio.png");
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.966);
+    background-color: rgba(0, 2, 12, 0.993);
     width: 510px;
     height: 600px;
     align-items: center;
@@ -121,10 +121,9 @@ body > header > nav{
 .keys button{
     width: 50px;
     height: 50px;
-    margin: 2px;
+    margin: -1px;
     margin-bottom: 2px;
     cursor: pointer;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.705);
     border-radius: 4px;
     border: 1px solid rgb(0, 0, 0);
     font-family: 'Cinzel', serif;
@@ -132,19 +131,30 @@ body > header > nav{
     font-weight: 500;
 }
 
+.keys button:hover{
+    cursor: pointer;
+    background-color: rgba(182, 182, 182, 0.925);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.822) ;
+}
+
 .keys2 button{
     width: 50px;
     height: 50px;
-    margin: 2px;
+    margin: -1px;
     margin-bottom: 4px;
     cursor: pointer;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.705);
     border-radius: 4px;
     border: 1px solid rgb(0, 0, 0);
     font-family: 'Cinzel', serif;
     color: #120333;
     font-weight: 500;
-} 
+}
+
+.keys2 button:hover{
+    cursor: pointer;
+    background-color: rgba(182, 182, 182, 0.925);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.822);
+}
 
 #category{
     justify-content: center;
@@ -196,15 +206,11 @@ body > header > nav{
     .keys button{
     width: 45px;
     height: 45px;
-    margin: 2px;
-    margin-bottom: 2px;
     }
 
     .keys2 button{
         width: 45px;
         height: 45px;
-        margin: 2px;
-        margin-bottom: 2px;
     }
 
     #buttons > button{
@@ -312,7 +318,6 @@ body > header > nav{
     .keys button{
     width: 31px;
     height: 30px;
-    margin: 1px -1px 1px -1px;
     box-shadow: none;
     font-size: 0.8em;
     }
@@ -320,7 +325,6 @@ body > header > nav{
     .keys2 button{
         width: 31px;
         height: 30px;
-        margin: 1px -1px 1px -1px;
         box-shadow: none;
         font-size: 0.8em;
     }
@@ -384,7 +388,6 @@ body > header > nav{
     .keys button{
     width: 28px;
     height: 27px;
-    margin: 1px -1px 1px -1px;
     box-shadow: none;
     font-size: 0.8em;
     }
@@ -392,7 +395,6 @@ body > header > nav{
     .keys2 button{
         width: 29px;
         height: 27px;
-        margin: 1px -1px 1px -1px;
         box-shadow: none;
         font-size: 0.8em;
     }
@@ -447,7 +449,6 @@ body > header > nav{
     .keys button{
     width: 22px;
     height: 19px;
-    margin: -1px -1px -1px -1px;
     box-shadow: none;
     font-size: 0.6em;
     }
@@ -455,7 +456,6 @@ body > header > nav{
     .keys2 button{
         width: 23px;
         height: 19px;
-        margin: -1px -1px -1px -1px;
         box-shadow: none;
         font-size: 0.6em;
     }

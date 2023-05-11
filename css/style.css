@@ -43,7 +43,7 @@ header a {
 
 body {
     width: 100%;
-    background-image: url("/image/background/homePage.jpg");
+    background-color: #111111;
     position: relative;
 }
 
