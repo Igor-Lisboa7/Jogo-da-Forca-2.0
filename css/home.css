@@ -22,9 +22,7 @@
 #parchment{
     font-family: 'Caveat', cursive;
     font-size: 1.1rem;
-    background-image: url("/image/background/Pergaminho.png");
-    backdrop-filter: blur(5px);
-    background-color: rgba(80, 79, 78, 0.2);
+    background-image: url("../image/background/Pergaminho.png");
     padding: 50px;
     width: 720px;
     height: 920px;
@@ -114,8 +112,9 @@
 
     #parchment{
         width: 620px;
+        height: 850px;
         font-size: 15px;
-        background-image: url("../image/background/responsividade/1Pergaminho.png");
+        background-image: url("../image/background/responsividade/0Pergaminho.png");
         
     }
 
@@ -235,12 +234,7 @@
         background-image: url('../image/background/responsividade/sobre/3background.jpg');
     }
 
-    #disappear{
-        display: none;
-    }
-    #disappear-two{
-        display: block;
-    }
+   
 
     #welcome{
         width: 300px;
@@ -248,7 +242,6 @@
     }
 
     #parchment{
-        background-color: rgba(90, 80, 60, 0.35);
         width: 300px;
         height: 840px;
         font-size: 11px;
@@ -259,7 +252,7 @@
     #rule-book{
         margin: 0px 0px 0px -10px;
         width: 220px;
-        height: 740px;
+        height: 750px;
     }
 
     #input-name{
@@ -306,6 +299,14 @@
     }
 }
 
+@media (max-width: 375px) {
+    #disappear{
+        display: none;
+    }
+    #disappear-two{
+        display: block;
+    }
+}
 
 @media (max-width: 309px){
 
