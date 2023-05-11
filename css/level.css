@@ -1,6 +1,7 @@
 #container{
     margin-top: 80px;
     font-family: 'Cormorant Garamond', serif;
+    background-image: url('../image/background/background5.jpeg');
 }
 
 #challenge{
@@ -14,7 +15,7 @@
     text-align: center;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
-    background-color: rgba(187, 183, 183, 0.664);
+    background-color: rgba(61, 60, 60, 0.527);
 } 
 
 
@@ -27,7 +28,7 @@
     height: 1100px;
     border: 1px;
     border-radius: 4px;
-    background-color: rgba(187, 183, 183, 0.664);
+    background-color: rgba(61, 60, 60, 0.527);
     justify-content: space-around;
     align-items: flex-start;
 
@@ -103,75 +104,75 @@
   }
 
   #frame1 {
-    background-image: url("/image/Level-Menu/País.png");
+    background-image: url("../image/Level-Menu/País.png");
   }  
 
   #frame2 {
-     background-image: url("/image/Level-Menu/2Animais.jpg"); 
+     background-image: url("../image/Level-Menu/2Animais.jpg"); 
   }
 
   #frame3 {
-    background-image: url("/image/Level-Menu/3Futebol.jpg");
+    background-image: url("../image/Level-Menu/3Futebol.jpg");
   }  
 
   #frame4 {
-    background-image: url("/image/Level-Menu/Parte-2/1Frutas.jpg");
+    background-image: url("../image/Level-Menu/Parte-2/1Frutas.jpg");
   }  
 
   #frame5 {
-    background-image: url("/image/Level-Menu/5Jogos.jpg");
+    background-image: url("../image/Level-Menu/5Jogos.jpg");
   }  
 
   #frame6 {
-    background-image: url("/image/Level-Menu/1Filme.jpeg");
+    background-image: url("../image/Level-Menu/1Filme.jpeg");
   }  
 
   #frame7 {
-    background-image: url("/image/Level-Menu/7Seriados.jpg");
+    background-image: url("../image/Level-Menu/7Seriados.jpg");
   }  
 
   #frame8 {
-    background-image: url("/image/Level-Menu/livros.jpeg");
+    background-image: url("../image/Level-Menu/livros.jpeg");
   } 
   
   #frame9 {
-    background-image: url("/image/Level-Menu/4Profissão01.jpg");
+    background-image: url("../image/Level-Menu/4Profissão01.jpg");
   }  
 
   #frame10 {
-     background-image: url("/image/Level-Menu/Parte-2/2Cidades-BR.png"); 
+     background-image: url("../image/Level-Menu/Parte-2/2Cidades-BR.png"); 
   }
 
   #frame11 {
-    background-image: url("/image/Level-Menu/Parte-2/Instrumentos-Musicais.jpg");
+    background-image: url("../image/Level-Menu/Parte-2/Instrumentos-Musicais.jpg");
   }  
 
   #frame12 {
-    background-image: url("/image/Level-Menu/Parte-2/4Musicas.jpg");
+    background-image: url("../image/Level-Menu/Parte-2/4Musicas.jpg");
   }  
 
   #frame13 {
-    background-image: url("/image/Level-Menu/Parte-2/5jogos-tabuleiros.jpg");
+    background-image: url("../image/Level-Menu/Parte-2/5jogos-tabuleiros.jpg");
   }  
 
   #frame14 {
-    background-image: url("/image/Level-Menu/Parte-2/6Filosofos.jpeg");
+    background-image: url("../image/Level-Menu/Parte-2/6Filosofos.jpeg");
   }  
 
   #frame15{
-    background-image: url("/image/Level-Menu/Parte-2/7Geografia.jpg");
+    background-image: url("../image/Level-Menu/Parte-2/7Geografia.jpg");
   }  
 
   #frame16 {
-    background-image: url("/image/Level-Menu/Parte-2/8Historia.jpeg");
+    background-image: url("../image/Level-Menu/Parte-2/8Historia.jpeg");
   }  
 
   #frame17 {
-    background-image: url("/image/Level-Menu/Parte-2/9Conhecimentos-Gerais.png");
+    background-image: url("../image/Level-Menu/Parte-2/9Conhecimentos-Gerais.png");
   }  
 
   #frame20 {
-    background-image: url("/image/Level-Menu/Parte-2/10Reverso-Cidades.png");
+    background-image: url("../image/Level-Menu/Parte-2/10Reverso-Cidades.png");
   }  
 
 
@@ -186,7 +187,7 @@
     border: 1px solid black;
     box-sizing: border-box;
     border-radius: 4px;
-    background-image: url("/image/Level-Menu/2AnimaisReverso.jpg");
+    background-image: url("../image/Level-Menu/2AnimaisReverso.jpg");
   }  
 
   #frame9 div{
@@ -221,7 +222,7 @@
     border: 1px solid black;
     box-sizing: border-box;
     border-radius: 6px;
-    background-image: url("/image/Level-Menu/PaísReverso.png");
+    background-image: url("../image/Level-Menu/PaísReverso.png");
   }  
 
   #frame10 div{
@@ -551,31 +552,31 @@
   }
   #frame1{
       width: 170px;
-      background-image: url('/image/Level-Menu/Responsivo/País.png');
+      background-image: url('../image/Level-Menu/Responsivo/País.png');
   }
   #frame2{
       width: 170px;
-      background-image: url('/image/Level-Menu/Responsivo/2Animais.jpg')
+      background-image: url('../image/Level-Menu/Responsivo/2Animais.jpg')
   }
  
   #frame3{
       width: 170px;
-      background-image: url('/image/Level-Menu/Responsivo/3Futebol.jpg')
+      background-image: url('../image/Level-Menu/Responsivo/3Futebol.jpg')
   }
  
   #frame4{
       width: 170px;
-      background-image: url('/image/Level-Menu/Parte-2/Responsivo/1Frutas.jpg')
+      background-image: url('../image/Level-Menu/Parte-2/Responsivo/1Frutas.jpg')
   }
  
   #frame5{
       width: 170px;
-      background-image: url('/image/Level-Menu/Responsivo/5Jogos.jpg')
+      background-image: url('../image/Level-Menu/Responsivo/5Jogos.jpg')
   }
  
   #frame6{
       width: 170px;
-      background-image: url('/image/Level-Menu/Responsivo/1Filme.jpeg')
+      background-image: url('../image/Level-Menu/Responsivo/1Filme.jpeg')
   }
  
   #frame7{
@@ -588,7 +589,7 @@
  
   #frame9{
       width: 170px;
-      background-image: url('/image/Level-Menu/Responsivo/4Profissão01.jpg')
+      background-image: url('../image/Level-Menu/Responsivo/4Profissão01.jpg')
   }
  
   #frame10{
@@ -609,17 +610,17 @@
  
   #frame14{
       width: 170px;
-      background-image: url('/image/Level-Menu/Parte-2/Responsivo/6Filosofos.jpeg')
+      background-image: url('../image/Level-Menu/Parte-2/Responsivo/6Filosofos.jpeg')
   }
  
   #frame15{
       width: 170px;
-      background-image: url('/image/Level-Menu/Parte-2/Responsivo/7Geografia.jpg')
+      background-image: url('../image/Level-Menu/Parte-2/Responsivo/7Geografia.jpg')
   }
  
   #frame16{
       width: 170px;
-      background-image: url('/image/Level-Menu/Parte-2/Responsivo/8Historia.jpeg')
+      background-image: url('../image/Level-Menu/Parte-2/Responsivo/8Historia.jpeg')
   }
  
   #frame17{
@@ -632,7 +633,7 @@
  
   #frame19{
       width: 170px;
-      background-image: url('/image/Level-Menu/Responsivo/PaísReverso.png')
+      background-image: url('../image/Level-Menu/Responsivo/PaísReverso.png')
   }
  
   #frame20{

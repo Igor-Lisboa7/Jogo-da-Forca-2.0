@@ -1,4 +1,5 @@
 #container{
+    background-image: url("../image/background/background.jpg");
     margin: auto;
     text-align: center;   
 }
@@ -95,7 +96,15 @@
     margin: 0px 10px 0px 10px;
 }
 
+
+
+
 @media (max-width: 768px) {
+
+    #container{
+        background-image: url('../image/background/responsividade/sobre/1background.jpg');
+    }
+    
 
     #welcome{
         width: 620px;  
@@ -106,7 +115,7 @@
     #parchment{
         width: 620px;
         font-size: 15px;
-        background-image: url("/image/background/responsividade/1Pergaminho.png");
+        background-image: url("../image/background/responsividade/1Pergaminho.png");
         
     }
 
@@ -154,6 +163,11 @@
 }
 
 @media (max-width: 620px) {
+
+    #container{
+        background-image: url('../image/background/responsividade/sobre/2background.jpg');
+    }
+    
     #welcome{
         width: 400px;
         font-size: 28px; 
@@ -163,7 +177,7 @@
         width: 400px;
         height: 850px;
         font-size: 11px;
-        background-image: url("/image/background/responsividade/2Pergaminho.png");
+        background-image: url("../image/background/responsividade/1Pergaminho.png");
         
     }
 
@@ -217,6 +231,10 @@
 
 @media (max-width: 430px) {
 
+    #container{
+        background-image: url('../image/background/responsividade/sobre/3background.jpg');
+    }
+
     #disappear{
         display: none;
     }
@@ -234,7 +252,7 @@
         width: 300px;
         height: 840px;
         font-size: 11px;
-        background-image: url("/image/background/responsividade/3Pergaminho.png");
+        background-image: url("../image/background/responsividade/3Pergaminho.png");
         
     }
 
@@ -290,6 +308,7 @@
 
 
 @media (max-width: 309px){
+
     #disappear{
         display: none;
     }
