@@ -1,5 +1,6 @@
 #container{
-    background-image: url("../image/background/background.jpg");
+    background-image: url("../image/background/fon-hellouin_halloween-prazdniki-risunki-17309.jpeg");
+    background-size:100% 100%;
     margin: auto;
     text-align: center;   
 }
@@ -99,9 +100,10 @@
 
 @media (max-width: 768px) {
 
-    #container{
+    /* #container{
         background-image: url('../image/background/responsividade/sobre/1background.jpg');
-    }
+        
+    } */
     
 
     #welcome{
@@ -163,9 +165,9 @@
 
 @media (max-width: 620px) {
 
-    #container{
+    /* #container{
         background-image: url('../image/background/responsividade/sobre/2background.jpg');
-    }
+    } */
     
     #welcome{
         width: 400px;
@@ -230,9 +232,9 @@
 
 @media (max-width: 430px) {
 
-    #container{
+    /* #container{
         background-image: url('../image/background/responsividade/sobre/3background.jpg');
-    }
+    } */
 
    
 
