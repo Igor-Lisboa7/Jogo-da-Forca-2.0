@@ -4,7 +4,8 @@ body{
 
 
 #container{
-    background-image: url('../image/background/background.jpg');
+    background-image: url('../image/background/fon-hellouin_halloween-prazdniki-risunki-17309.jpeg');
+    background-size:100% 100%;
     /* margin-top: 25px; */
     font-family:'Times New Roman', Times, serif
 }
@@ -51,9 +52,10 @@ body{
 }
 
 @media (max-width: 768px) {
-    #container{
-        background-image: url('../image/background/responsividade/sobre/1background.jpg');
-    }
+    /* #container{
+        background-image: url('../image/background/fon-hellouin_halloween-prazdniki-risunki-17309.jpeg');
+    background-size:100% 100%;
+    } */
     #sub-container{
         
         width: 540px;
@@ -67,9 +69,10 @@ body{
 }
 
 @media (max-width: 600px) {
-    #container{
-        background-image: url('../image/background/responsividade/sobre/2background.jpg');
-    }
+    /* #container{
+        background-image: url('../image/background/fon-hellouin_halloween-prazdniki-risunki-17309.jpeg');
+        background-size:100% 100%;
+    } */
 
     #game-start > button{
         width: 20%;
@@ -101,7 +104,8 @@ body{
         display: block;
     }
     #container{
-        background-image: url('../image/background/responsividade/sobre/3background.jpg');
+        background-image: url('../image/background/fon-hellouin_halloween-prazdniki-risunki-17309.jpeg');
+    background-size:100% 100%;
     }
     #sub-container{
         width: 310px;

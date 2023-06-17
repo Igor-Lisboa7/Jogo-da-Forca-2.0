@@ -1,4 +1,4 @@
-module.exports = {
+const data = {
 
     // Rules...
     rules: [
@@ -51,120 +51,140 @@ module.exports = {
     // País:
     level01: [
         challenge01 = {
+            order: "01",
             word: "BRASIL",
             category:"PAÍS",
             tip:"DICA: Sou Penta Campeão Mundial e berço do MELHOR jogador de todos os tempos."
         },
 
         challenge02 = {
+            order: "02",
             word: "ARGENTINA",
             category:"PAÍS",
             tip:"DICA: Sou o País do Tango"
         },
         
         challenge03 = {
+            order: "03",
             word: "CANADA",
             category:"PAÍS",
             tip:"DICA: Ottawa é a capital do meu país!"
         },
         
         challenge04 = {
+            order: "04",
             word: "AUSTRALIA",
             category:"PAÍS",
             tip:"DICA: Sou o país dos Cangurus."
         },
         
         challenge05 = {
+            order: "05",
             word: "CAMAROES",
             category:"PAÍS",
             tip:"DICA: Tenho nome de fruto do Mar."
         },
         
         challenge06 = {
+            order: "06",
             word: "PERU",
             category:"PAÍS",
             tip:"DICA: A civilização Inca surgiu no meu territorio!"
         },
         
         challenge07 = {
+            order: "07",
             word: "JAPAO",
             category:"PAÍS",
             tip:"DICA: Sou a terra do sol nascente!"
         },
         
         challenge08 = {
+            order: "08",
             word: "PARAGUAI",
             category:"PAÍS",
             tip:"DICA: Argentina, Brasil e Uruguai se uniram para me derrotar."
         },
         
         challenge09 = {
+            order: "09",
             word: "PORTUGAL",
             category:"PAÍS",
             tip:"DICA: Metade do 'antigo' novo mundo já me pertenceu, e fui o Primeiro imperio global da historia."
         },
         
         challenge10 = {
+            order: "10",
             word: "CHILE",
             category:"PAÍS",
             tip:"DICA: Sou o País com mais vulcões no mundo, e também tenho o deserto mais seco do mundo."
         },
         
         challenge11 = {
+            order: "11",
             word: "BOLIVIA",
             category:"PAÍS",
             tip:"DICA: Eu tenho mais de 30 línguas oficiais, e tenho o maior deserto de Sal do mundo."
         },
         
         challenge12 = {
+            order: "12",
             word: "ESPANHA",
             category:"PAÍS",
             tip:"DICA: Colonisou nossos Hermanos."
         },
         
         challenge13 = {
+            order: "13",
             word: "RUSSIA",
             category:"PAÍS",
             tip:"DICA: Sou o maior país do mundo!"
         },
         
         challenge14 = {
+            order: "14",
             word: "UCRANIA",
             category:"PAÍS",
             tip:"DICA: Fui uma república soviética até 1991, onde conquistei minha idependência."
         },
         
         challenge15 = {
+            order: "15",
             word: "MEXICO",
             category:"PAÍS",
             tip:"DICA: Abrigo a Maior Pirâmide do Mundo, e celebramos o dia dos Mortos!"
         },
         
         challenge16 = {
+            order: "16",
             word: "COLOMBIA",
             category:"PAÍS",
             tip:"DICA: Meu nome é uma homenagem ao navegador Cristovão C. E sou a terra natal de um dos maiores traficantes de drogas do século XX."
         },
         
         challenge17 = {
+            order: "17",
             word: "INDIA",
             category:"PAÍS",
             tip:"DICA: Em meu país além do inglês, existem mais 21 línguas nacionais no país e 400 idiomas e dialetos."
         },
         
         challenge18 = {
+            order: "18",
             word: "CAZAQUISTAO",
             category:"PAÍS",
             tip:"DICA: O país contém a maior e primeira base de lançamento de foguetes do mundo. Vem sendo usada desde a época da URSS e, até hoje, a Rússia realiza pelo menos três ou quatro lançamentos de foguetes todos os anos."
         },
         
         challenge19 = {
+            order: "19",
             word: "COREIA DO SUL",
             category:"PAÍS",
             tip:"DICA: Em meu país a idade das pessoas é contada desde a gestação. Por isso, ao nascer, nós consideramos que a criança já possui um ano de vida."
         },
         
         challenge20 = {
+            order: "20",
             word: "AFRICA DO SUL",
             category:"PAÍS",
             tip:"DICA: O maior deserto de areia do mundo fica localizado em meu país, e a copa do mundo de 2010 foi aqui."
@@ -1809,3 +1829,5 @@ module.exports = {
     ],
 
 }
+
+module.exports = data;

@@ -1,8 +1,10 @@
-#container{
+#container {
     font-family: 'Cormorant', serif;
     background-image: url('../image/background/background2.jpeg');
+    background-size:100% 100%;
 }
-#sub-container{
+
+#sub-container {
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -10,7 +12,7 @@
     height: 920px;
 }
 
-#box{
+#box {
     background-image: url("../image/background/6background.png");
     margin: auto;
     padding: 5px;
@@ -19,10 +21,10 @@
     height: 600px;
     align-items: center;
     border-radius: 2px;
-   
+
 }
 
-#life-score-name{
+#life-score-name {
     margin: auto;
     border: 2px;
     border-radius: 5px;
@@ -33,53 +35,53 @@
     text-align: center;
     background-color: rgba(221, 185, 214, 0.240);
     color: rgb(255, 255, 255);
-    
+
 
 }
 
-#name h5 p{
+#name h5 p {
     font-family: 'Cormorant', serif;
     display: inline;
 }
 
-#time h5 p{
+#time h5 p {
     font-family: 'Cormorant', serif;
     display: inline;
 }
 
-#life h5 p{
+#life h5 p {
     font-family: 'Cormorant', serif;
     display: inline;
 }
 
-#attempts h5 p{
-    font-family: 'Cormorant', serif;
-    display: inline;
-}
-
-
-#score h5 p{
+#attempts h5 p {
     font-family: 'Cormorant', serif;
     display: inline;
 }
 
 
-#forca{
+#score h5 p {
+    font-family: 'Cormorant', serif;
+    display: inline;
+}
+
+
+#forca {
     margin: auto;
     text-align: center;
     width: 270px;
     height: 400px;
-    
-    
-    
+
+
+
 
 }
 
-#image img{
+#image img {
     width: 250px;
 }
 
-#secret-word{
+#secret-word {
     width: 80%;
     padding: 5px 0px 5px 0px;
     text-align: center;
@@ -90,9 +92,9 @@
     text-align: center;
     background-color: rgba(221, 185, 214, 0.240);
     color: rgb(255, 255, 255);
-}    
+}
 
-#dicas{
+#dicas {
     width: 95%;
     padding: 5px;
     margin: auto;
@@ -103,22 +105,21 @@
     color: rgb(255, 255, 255);
     border: 2px;
     border-radius: 5px;
-    
+
 }
 
-#keyboard{
+#keyboard {
     text-align: center;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
 
-.keys button{
+.keys button {
     width: 51px;
     height: 50px;
-    margin: 2px;
-    margin-bottom: 2px;
+    margin: -1px -2px -1px -1px;
     background-color: rgba(255, 255, 255, 0.877);
     border-radius: 3px;
     border: 1px solid rgba(0, 0, 0, 0.822);
@@ -127,32 +128,31 @@
     font-weight: 500;
 }
 
-.keys button:hover{
-    cursor: pointer;
-    background-color: rgba(182, 182, 182, 0.925);
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.822) ;
-}
-
-.keys2 button{
-    width: 51px;
-    height: 50px;
-    margin: 2px;
-    margin-bottom: 2px;
-    background-color: rgba(255, 255, 255, 0.877);
-    border-radius: 3px;
-    border: 1px solid rgba(0, 0, 0, 0.822);
-    font-family: 'Cinzel', serif;
-    color: #120333;
-    font-weight: 500;
-} 
-
-.keys2 button:hover{
+.keys button:hover {
     cursor: pointer;
     background-color: rgba(182, 182, 182, 0.925);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.822);
 }
 
-#category{
+.keys2 button {
+    width: 51px;
+    height: 50px;
+    margin: 0px -1px -1px -1px;
+    background-color: rgba(255, 255, 255, 0.877);
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.822);
+    font-family: 'Cinzel', serif;
+    color: #120333;
+    font-weight: 500;
+}
+
+.keys2 button:hover {
+    cursor: pointer;
+    background-color: rgba(182, 182, 182, 0.925);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.822);
+}
+
+#category {
     justify-content: center;
     width: 40%;
     padding: 6px;
@@ -166,62 +166,60 @@
 
 @media (max-width: 800px) {
 
-    #container{
+    #container {}
 
-    }
-
-    #sub-container{
+    #sub-container {
         width: 720px;
         height: 880px;
     }
-    #life-score-name{
-     width: 460px;
-     
+
+    #life-score-name {
+        width: 460px;
+
     }
 
-    h5{
+    h5 {
         font-size: 16px;
     }
-    p{
+
+    p {
         font-size: 14px;
     }
 
-    #box{
+    #box {
         background-image: url("../image/background/6background.png");
         width: 475px;
-        height: 560px;  
+        height: 560px;
     }
-    
-    #secret-word{
+
+    #secret-word {
         width: 350px;
     }
 
-    #dicas{
+    #dicas {
         width: 350px;
         margin-top: 5px;
     }
 
-    .keys button{
-    width: 45px;
-    height: 45px;
-    margin: 2px;
-    margin-bottom: 2px;
-    }
-
-    .keys2 button{
+    .keys button {
         width: 45px;
         height: 45px;
-        margin: 2px;
-        margin-bottom: 2px;
+        margin: -1px -2px -1px -2px;
     }
 
-    #buttons > button{
+    .keys2 button {
+        width: 45px;
+        height: 45px;
+        margin: -1px -2px -1px -2px;
+    }
+
+    #buttons>button {
         padding: 5px;
         width: 170px;
         font-size: 16px;
     }
 
-    #praise-bugs > a{
+    #praise-bugs>a {
         padding: 6px;
         width: 170px;
         font-size: 16px;
@@ -229,21 +227,23 @@
 }
 
 @media (max-width: 718px) {
-    #sub-container{
+    #sub-container {
         width: 585px;
         height: 880px;
     }
-    #buttons > button{
+
+    #buttons>button {
         padding: 5px;
         width: 160px;
         font-size: 14px;
     }
 
-    #praise-bugs > a{
+    #praise-bugs>a {
         padding: 6px;
         width: 160px;
         font-size: 14px;
     }
+
     /* 
     #life-score-name{
      width: 460px;
@@ -270,64 +270,58 @@
     #dicas{
         width: 350px;
         margin-top: 5px;
-    }
+    } */
 
-    .keys button{
-    width: 45px;
-    height: 45px;
-    margin: 2px;
-    margin-bottom: 2px;
-    }
-
-    .keys2 button{
+    .keys button {
         width: 45px;
         height: 45px;
-        margin: 2px;
-        margin-bottom: 2px;
-    } */
+        margin: -1px;
+        margin-bottom: 1px;
+    }
+
+    .keys2 button {
+        width: 45px;
+        height: 45px;
+        margin: -1px;
+        margin-bottom: 1px;
+    }
 }
 
 @media (max-width: 585px) {
-    #sub-container{
+    #sub-container {
         width: 450px;
         height: 880px;
     }
-    #life-score-name{
-     width: 350px;
-     
+
+    #life-score-name {
+        width: 350px;
+
     }
 
-    h5{
+    h5 {
         font-size: 12px;
     }
-    p{
+
+    p {
         font-size: 11px;
     }
 
-    #box{
+    #box {
         background-image: url("../image/background/responsividade/6background.png");
         width: 100%;
-        height: 560px;  
+        height: 560px;
     }
-    
-    #secret-word{
+
+    #secret-word {
         width: 85%;
     }
 
-    #dicas{
+    #dicas {
         width: 90%;
         margin-top: 5px;
     }
 
-    .keys button{
-    width: 31px;
-    height: 30px;
-    margin: 1px -1px 1px -1px;
-    box-shadow: none;
-    font-size: 0.8em;
-    }
-
-    .keys2 button{
+    .keys button {
         width: 31px;
         height: 30px;
         margin: 1px -1px 1px -1px;
@@ -335,13 +329,21 @@
         font-size: 0.8em;
     }
 
-    #buttons > button{
+    .keys2 button {
+        width: 31px;
+        height: 30px;
+        margin: 1px -1px 1px -1px;
+        box-shadow: none;
+        font-size: 0.8em;
+    }
+
+    #buttons>button {
         padding: 5px;
         width: 110px;
         font-size: 10px;
     }
 
-    #praise-bugs > a{
+    #praise-bugs>a {
         padding: 6px;
         width: 110px;
         font-size: 10px;
@@ -349,70 +351,72 @@
 }
 
 @media (max-width: 449px) {
-   
 
-    #sub-container{
+
+    #sub-container {
         width: 360px;
         height: 680px;
         background-color: rgba(0, 0, 0, 0);
     }
-    #life-score-name{
-     width: 90%;
-     
+
+    #life-score-name {
+        width: 90%;
+
     }
 
-    h5{
-        font-size: 10px;
-    }
-    p{
+    h5 {
         font-size: 10px;
     }
 
-    #box{
+    p {
+        font-size: 10px;
+    }
+
+    #box {
         background-image: url("../image/background/responsividade/7background.png");
         width: 100%;
-        height: 500px;  
+        height: 500px;
         margin: 0;
     }
-    
-    #secret-word{
+
+    #secret-word {
         width: 90%;
         margin-top: -25px;
     }
 
-    #dicas{
+    #dicas {
         width: 90%;
 
         margin-top: 5px;
     }
 
-    #keyboard{
+    #keyboard {
         /* margin-top: 80px; */
     }
 
-    .keys button{
-    width: 28px;
-    height: 27px;
-    margin: 1px -1px 1px -1px;
-    box-shadow: none;
-    font-size: 0.8em;
-    }
-
-    .keys2 button{
-        width: 29px;
+    .keys button {
+        width: 28px;
         height: 27px;
         margin: 1px -1px 1px -1px;
         box-shadow: none;
         font-size: 0.8em;
     }
 
-    #buttons > button{
+    .keys2 button {
+        width: 29px;
+        height: 27px;
+        margin: -1px -1px -1px -1px;
+        box-shadow: none;
+        font-size: 0.8em;
+    }
+
+    #buttons>button {
         padding: 5px;
         width: 80px;
         font-size: 9px;
     }
 
-    #praise-bugs > a{
+    #praise-bugs>a {
         padding: 6px;
         width: 80px;
         font-size: 9px;
@@ -420,79 +424,101 @@
 }
 
 @media (max-width: 374px) {
-    #disappear{
+    #disappear {
         display: none;
     }
-    #disappear-two{
+
+    #disappear-two {
         display: block;
+    }
+
+    .keys button {
+        width: 26px;
+        height: 25px;
+        box-shadow: none;
+        font-size: 0.7em;
+        margin: -1px -2px -1px -2px;
+    }
+
+    .keys2 button {
+        width: 27px;
+        height: 25px;
+        box-shadow: none;
+        font-size: 0.7em;
+        margin: -1px -2px -1px -2px;
+        
     }
 }
 
 @media (max-width: 360px) {
-    #sub-container{
+    #sub-container {
         width: 100%;
         height: 800px;
         background-color: rgba(0, 0, 0, 0);
     }
-    #life-score-name{
-     width: 90%;
-     
+
+    #life-score-name {
+        width: 90%;
+
     }
 
-    h5{
-        font-size: 10px;
-    }
-    p{
+    h5 {
         font-size: 10px;
     }
 
-    #box{
+    p {
+        font-size: 10px;
+    }
+
+    #box {
         background-image: url("../image/background/responsividade/7background.png");
         width: 300px;
-        height: 495px;  
+        height: 495px;
         margin: auto;
-        margin-left: -28px;
+        /* margin-left: -28px; */
         align-items: center;
         text-align: center;
     }
-    
-    #secret-word{
-        
-    }
 
-    #dicas{
+    #secret-word {}
+
+    #dicas {
         margin-top: 5px;
         font-size: 0.5em;
     }
 
-    #category{
-        
+    #category {
+
         margin: auto;
         margin-bottom: 50px;
     }
-    .keys button{
-    width: 22px;
-    height: 19px;
-    margin: -1px -1px -1px -1px;
-    box-shadow: none;
-    font-size: 0.6em;
-    }
 
-    .keys2 button{
-        width: 23px;
-        height: 19px;
-        margin: -1px -1px -1px -1px;
+    
+    .keys button {
+        width: 22px;
+        height: 23px;
         box-shadow: none;
-        font-size: 0.6em;
+        font-size: 0.7em;
+        margin: -1px -2px -1px -2px;
     }
 
-    #buttons > button{
+    .keys2 button {
+        width: 23px;
+        height: 24px;
+        box-shadow: none;
+        font-size: 0.7em;
+        margin: -1px -2px -1px -2px;
+        
+    }
+
+
+    #buttons>button {
         padding: 5px;
         width: 50px;
         font-size: 7px;
     }
 
-    #praise-bugs > a{
+    #praise-bugs>a {
         padding: 5px;
         width: 50px;
         font-size: 7px;

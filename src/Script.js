@@ -1,21 +1,24 @@
+const data = require('./database');
+const objectWord = data.level01;
 
 let attempts = 6;
 let playAgain = true;
 let dynamicList = [];
-// let secretWord;
-// let category;
-// let secretTip;
+let secretWord;
+let category;
+let secretTip;
 // let ruleBook;
 const getFrame = document.querySelector('#box-challenge');
 const getFrameExtra = document.querySelector('#sub-container');
-// assembleRandomWords ();
-// function assembleRandomWords () { 
-//     const indexPalavra = parseInt(Math.random() * palavras.length); 
-//     secretWord = palavras[indexPalavra].nome;
-//     category = palavras[indexPalavra].categoria;
-//     Clue = palavras[indexPalavra].dica;
-// };
-//console.log(assembleRandomWords ());
+objectSelect ();
+function objectSelect () { 
+    secretWord = objectWord.find((level) => level.word);
+    category = objectWord.find((level) => level.category);
+    secretTip = objectWord.find((level) => level.tip);
+};
+console.log(objectSelect ());
+
+
 
 // assembleWords ();
 // function assembleWords () { 
