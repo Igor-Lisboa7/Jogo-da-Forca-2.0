@@ -1,7 +1,18 @@
 #container{
     margin-top: 80px;
     font-family: 'Cormorant Garamond', serif;
-    background-image: url('../image/background/background5.jpeg');
+    background-image: url('../image/background/Dia2.png');
+    background-size:100% 100%;
+    
+   
+}
+.container1{
+     width: 100%;
+     justify-content: space-around;
+     align-items: flex-start;
+     background-color: rgba(21, 21, 21, 0.1);
+     backdrop-filter: blur(6px);
+ 
 }
 
 #challenge{
@@ -15,20 +26,23 @@
     text-align: center;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgb(0, 0, 0) ;
-    background-color: rgba(61, 60, 60, 0.527);
+    background-color: rgba(61, 60, 60, 0.755);
+    
 } 
 
 
 #sub-container{
+    background-image: url("../image/background/teste.png");
     display: flex;
-    padding-top: 50px;
+    padding-top: 140px;
+    padding-bottom: 50px;
     margin: auto;
     margin-bottom: 50px;
-    width: 700px;
-    height: 1100px;
-    border: 1px;
+    width: 820px;
+    height: 1300px;
+    /*border: 1px;
     border-radius: 4px;
-    background-color: rgba(61, 60, 60, 0.527);
+    background-color: rgba(1, 1, 1, 0.58);*/
     justify-content: space-around;
     align-items: flex-start;
 
