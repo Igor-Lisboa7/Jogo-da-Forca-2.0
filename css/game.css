@@ -1,6 +1,6 @@
 #container {
     font-family: 'Cormorant', serif;
-    background-image: url('../image/background/Dia1.png');
+    background-image: url("../image/background/Dia2.png");
     background-size:100% 100%;
 }
 
