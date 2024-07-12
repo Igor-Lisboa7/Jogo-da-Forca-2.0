@@ -1,8 +1,10 @@
-#container{
-    background-image: url("../image/background/Dia2.png");
-    background-size:100% 100%;
+#container {
+    width: 96%;
     margin: auto;
-    text-align: center;   
+    border-radius: 20px;
+    font-family: 'Cormorant', serif;
+    background-image: url("/src/assets/images/background/Noite2.jpg");
+    background-size:100% 100%;
 }
 
 #welcome{
@@ -23,7 +25,7 @@
 #parchment{
     font-family: 'Caveat', cursive;
     font-size: 1.1rem;
-    background-image: url("../image/background/Pergaminho.png");
+    background-image: url("/src/assets/images/background/Pergaminho.png");
     padding: 50px;
     width: 720px;
     height: 920px;
@@ -95,7 +97,9 @@
     margin: 0px 10px 0px 10px;
 }
 
+@media (max-width: 768px) {
 
+}
 
 
 @media (max-width: 768px) {
@@ -113,11 +117,10 @@
     }
 
     #parchment{
-        width: 620px;
-        height: 850px;
+        margin: auto;
         font-size: 15px;
-        background-image: url("../image/background/responsividade/0Pergaminho.png");
-        
+        background-image: url("/src/assets/images/background/responsividade/1Pergaminho.png");
+        background-size:90% 100%;
     }
 
     #input-box{

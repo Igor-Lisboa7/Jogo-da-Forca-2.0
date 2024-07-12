@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Inicio Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -30,10 +30,10 @@
 
 
 
-    <link rel="stylesheet" href="/src/styles/style.css" media="screen">
-    <link rel="stylesheet" href="/src/styles/index.css" media="screen">
+    <link rel="stylesheet" href="./css/style.css" media="screen">
+    <link rel="stylesheet" href="./css/sobre.css" media="screen">
 
-    <title>-Jogo-da-Forca-2.0-</title>
+    <title>Sobre o Jogo</title>
 </head>
 
 <body>
@@ -71,59 +71,46 @@
 
     <main>
         <article id="container">
-            <h1 id="welcome">Bem Vindo ao Jogo da Forca -2.0-</h1>
-            <div id="parchment">
-                <section id="rule-book">
-                    <h2>Regras Gerais</h2>
-                    <p> 1- O jogo começa com 5 VIDAS, quando chegar a 0 será GAMER OVER!</p>
-                    <p> 2- Você terá 06 TENTATIVAS para ACERTAR a palavra secreta.</p>
-                    <p> 3- Após PERDER 6 TENTATIVAS você PERDE uma VIDA, e recomeça da palavra que parou.</p>
-                    <p> 4- Ao ACERTAR a palavra secreta clique na tecla que estará piscando para o proximo desafio.</p>
-                    <p> 5- Você GANHA uma VIDA adicional ao ACERTAR sem PERDER mais de 5 TENTATIVAS.</p>
-                    <p> 6- A cada LETRA ACERTADA te renderá 2 pontos, A cada ERRO você PERDERÁ 1 ponto.</p>
-                    <p> 7- Após juntar 5 pontos você terá uma 'DICA' clicando sobre a tecla: '!?' (DICA)</p>
-                    <p> 8- ATENÇÃO! Caso aceite ajuda da 'DICA' você PERDERÁ DUAS TENTATIVAS no proximo erro.</p>
-                    <p> 9- ATENÇÃO! Não adianta deixar para usar a dica faltando uma tentativa, se tentar isso PERDERÁ 1
-                        VIDA automaticamente.</p>
-                    <p> 10-ATENÇÃO! Vocẽ terá 60 segundos para clicar em uma letra, caso a contagem chegue a 0 perderá
-                        uma chance automaticamente, se isso se repetir 6 vezes seguidas perderá uma vida.</p>
-                    <p> 11-No "Modo Aleatório" apenas as 6 tentativas e o tempo permanecem valendo.</p>
-                    <div id="name-nick">
-                        <form action="" method="get">
-                            <label id="label-infos" for="agreement">Você concorda com as regras acima? </label>
-                            <input id="input-box" class="form-check-input" type="checkbox" id="agreement">
-                            <input type="text" name="name" id="input-name" class="form-control form-control-lg"
-                                placeholder="Nome"><button id="btn-id" class="btn btn-info" type="submit"> Enviar </button>
-                        </form>
-                    </div>
+            <div id="sub-container">
+                <section id="title">
+                    <h4>-Jogo da Forca 2.0-</h4>
+                    <p> O jogo da forca é um jogo em que o usuário tem que acertar qual é a palavra secreta em 6
+                        tentativas, tendo como dica o número de letras. <br> Mas este "Jogo da Forca 2.0" é um tanto
+                        quanto diferente, leia atentamente as regras na "Home Page" e tente acertar os mais de 600
+                        desafios, sendo eles 500 subida de nível e mais de 100 no modo aleatório.</p>
+                    <p> <a href="https://igor-lisboa7.github.io/Jogo-da-Forca/" target="_blank">Este Link</a> foi meu
+                        primeiro projeto feito com menos de 1
+                        mês de estudo debruçado sobre JavaScript, HTML e CSS do absoluto 0, tentei fazer o uso de
+                        Bootstrap, mas com
+                        pouco conhecimento que eu tinha ficou bem simples.<br> Após a finalização deste projeto eu optei
+                        por continuar na area da programação e ingressei no Desenvolvimento Web Full Stack na Trybe.
+                        <br> Agora com um pouco mais de conhecimento (3 Meses de Trybe) quero fazer melhorias neste
+                        projeto e para isso criei outro repositório para conparação.
+                    </p>
+                    <p> As melhorias consiste em adcionar aquilo que eu aprendi até o momento e sempre que eu for aprendendo coisas novas, que de alguma
+                        maneira deixe esse projeto mais interessante, irei voltar a este repositorio e atualiza-lo.</p>
+                    <p>Este novo projeto estou fazendo uso CORRETO de Bootstrap alem de varias configurações do CSS que
+                        pode até parecer JavaScript, mas não é, e por fim será um jogo completamente RESPONSIVO podendo
+                        ser visualizado nas principais telas desde o menor Smartphone até a resolução 4k.</p>
                 </section>
+                <section id="ps">
+                    <p> PS: <br> O primeiro Jogo da Forca que eu fiz não foi produzido do "nada" na minha
+                        cabeça, dou creditos ao Agnaldo Guimarães um programador que produz videos para o YouTube, lá em
+                        seu canal eu pude colocar em pratica o meu aprendizado, antes da Trybe é claro, com o Agnaldo eu
+                        tive o norte para fazer não só o Projeto Jogo da Forca, mas varios outros, pois ele explica tão
+                        bem que você acaba entendendo e já imagina em como determinado codigo pode ser usado em outra
+                        aplicação. Um bom exemplo disso é que muitos codigos que eu alterei no Jogo da Forca me salvaram
+                        em projetos da Trybe, como por exemplo "Pixel Art, Adivinhe a cor, Carta Misteriosa e Zoo
+                        Functions".</p>
 
-
-                
-
+                </section>
             </div>
+
+            <section id="game-start">
+                <button class="btn btn-info"><a href="./html/homepage.html">Home Page</a></button>
+            </section>
+
         </article>
-
-
-
-
-        <div id="buttons">
-
-            <aside id="about">
-                <a id="left" class="btn btn-info" href="/src/pages/about.html" role="button">Sobre o Jogo</a>
-            </aside>
-
-            <aside id="game-start">
-                <a id="half" class="btn btn-info" href="/src/pages/gamestart.html" role="button">-Iniciar-Jogo-</a>
-            </aside>
-
-            <aside id="praise-bugs">
-                <a id="right" class="btn btn-info" href="/src/pages/praisebugs.html" role="button">Bugs / Elogios</a>
-            </aside>
-        </div>
-
-
-
     </main>
 
     <footer>
@@ -144,6 +131,7 @@
             <p>© developed and compiled by Igor Lisboa 2024</p>
         </div>
     </footer>
+
 
 
     <!-- <script> bootstrap </script> -->

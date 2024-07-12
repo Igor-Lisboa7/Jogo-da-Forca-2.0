@@ -1,7 +1,7 @@
 #container{
     margin-top: 80px;
     font-family: 'Cormorant Garamond', serif;
-    background-image: url('../image/background/Dia2.png');
+    background-image: url('/src/assets/images/background/Noite2.jpg');
     background-size:100% 100%;
     
    
@@ -40,7 +40,21 @@
     border-radius: 4px;
     justify-content: space-around;
     align-items: flex-start;
+   
 
+}
+
+.background {
+  margin: auto;
+  width: 26%;
+  height: 1100px;
+  border: 1px;
+  border-radius: 4px;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-shadow: 1px 1px 3px 3px rgb(45, 13, 97);
+  border-radius: 20px;
+  background-color: rgba(11, 0, 21, 0.899);
 }
 
 
@@ -49,14 +63,14 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    width: 550px;
+    width: 580px;
     height: 1000px;
     justify-content: center;
     margin-bottom: 50px;
     align-content: space-between;
-    /* box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.76);
-    border-radius: 20px;
-    background-color: rgba(43, 12, 80, 0); */
+    margin: auto;
+    margin-top: 50px;
+    
 }
 
 /* Quadro Menu Level */
@@ -113,75 +127,75 @@
   }
 
   #frame1 {
-    background-image: url("../image/Level-Menu/País.png");
+    background-image: url("/src/assets/images/levelMenu/País.png");
   }  
 
   #frame2 {
-     background-image: url("../image/Level-Menu/2Animais.jpg"); 
+     background-image: url("/src/assets/images/levelMenu/2Animais.jpg"); 
   }
 
   #frame3 {
-    background-image: url("../image/Level-Menu/3Futebol.jpg");
+    background-image: url("/src/assets/images/levelMenu/3Futebol.jpg");
   }  
 
   #frame4 {
-    background-image: url("../image/Level-Menu/Parte-2/1Frutas.jpg");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/1Frutas.jpg");
   }  
 
   #frame5 {
-    background-image: url("../image/Level-Menu/5Jogos.jpg");
+    background-image: url("/src/assets/images/levelMenu/5Jogos.jpg");
   }  
 
   #frame6 {
-    background-image: url("../image/Level-Menu/1Filme.jpeg");
+    background-image: url("/src/assets/images/levelMenu/1Filme.jpeg");
   }  
 
   #frame7 {
-    background-image: url("../image/Level-Menu/7Seriados.jpg");
+    background-image: url("/src/assets/images/levelMenu/7Seriados.jpg");
   }  
 
   #frame8 {
-    background-image: url("../image/Level-Menu/livros.jpeg");
+    background-image: url("/src/assets/images/levelMenu/livros.jpeg");
   } 
   
   #frame9 {
-    background-image: url("../image/Level-Menu/4Profissão01.jpg");
+    background-image: url("/src/assets/images/levelMenu/4Profissão01.jpg");
   }  
 
   #frame10 {
-     background-image: url("../image/Level-Menu/Parte-2/2Cidades-BR.png"); 
+     background-image: url("/src/assets/images/levelMenu/Parte-2/2Cidades-BR.png"); 
   }
 
   #frame11 {
-    background-image: url("../image/Level-Menu/Parte-2/Instrumentos-Musicais.jpg");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/Instrumentos-Musicais.jpg");
   }  
 
   #frame12 {
-    background-image: url("../image/Level-Menu/Parte-2/4Musicas.jpg");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/4Musicas.jpg");
   }  
 
   #frame13 {
-    background-image: url("../image/Level-Menu/Parte-2/5jogos-tabuleiros.jpg");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/5jogos-tabuleiros.jpg");
   }  
 
   #frame14 {
-    background-image: url("../image/Level-Menu/Parte-2/6Filosofos.jpeg");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/6Filosofos.jpeg");
   }  
 
   #frame15{
-    background-image: url("../image/Level-Menu/Parte-2/7Geografia.jpg");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/7Geografia.jpg");
   }  
 
   #frame16 {
-    background-image: url("../image/Level-Menu/Parte-2/8Historia.jpeg");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/8Historia.jpeg");
   }  
 
   #frame17 {
-    background-image: url("../image/Level-Menu/Parte-2/9Conhecimentos-Gerais.png");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/9Conhecimentos-Gerais.png");
   }  
 
   #frame20 {
-    background-image: url("../image/Level-Menu/Parte-2/10Reverso-Cidades.png");
+    background-image: url("/src/assets/images/levelMenu/Parte-2/10Reverso-Cidades.png");
   }  
 
 
@@ -196,7 +210,7 @@
     border: 1px solid black;
     box-sizing: border-box;
     border-radius: 4px;
-    background-image: url("../image/Level-Menu/2AnimaisReverso.jpg");
+    background-image: url("/src/assets/images/levelMenu/2AnimaisReverso.jpg");
   }  
 
   #frame9 div{
@@ -231,7 +245,7 @@
     border: 1px solid black;
     box-sizing: border-box;
     border-radius: 6px;
-    background-image: url("../image/Level-Menu/PaísReverso.png");
+    background-image: url("/src/assets/images/levelMenu/PaísReverso.png");
   }  
 
   #frame10 div{
@@ -260,15 +274,92 @@
 }
   /* QUadro Menu Level */
 
- @media (max-width: 778px){
+  @media (max-width: 1460px){
+    #challenge{
+      width: 900px;
+    }
+    #sub-container{
+      width:950px;
+    }
+    .background {
+      margin: auto;
+      width: 700px;
+    }
+    
+    #box-challenge{
+      width: 600px;
+    }
+
+  }
+
+  @media (max-width: 1150px){
+    #challenge{
+      width: 850px;
+    }
+    #sub-container{
+      width:850px;
+    }
+    .background {
+      margin: auto;
+      width: 670px;
+    }
+    
+    #box-challenge{
+      width: 600px;
+    }
+
+  }
+
+  @media (max-width: 1030px){
+    #challenge{
+      width: 750px;
+    }
+    #sub-container{
+      width:750px;
+    }
+    .background {
+      margin: auto;
+      width: 700px;
+    }
+    
+    #box-challenge{
+      width: 600px;
+    }
+
+  }
+
+  @media (max-width: 800px){
+    #challenge{
+      width: 650px;
+    }
+    #sub-container{
+      width:650px;
+    }
+    .background {
+      margin: auto;
+      width: 650px;
+    }
+    
+    #box-challenge{
+      width: 580px;
+    }
+
+  }
+
+ @media (max-width: 768px){
   #challenge{
     width: 650px;
   }
   #sub-container{
-    width: 650px;
+    width: 600px;
   }
+  .background {
+    margin: auto;
+    width: 600px;
+  }
+  
   #box-challenge{
-    width: 500px;
+    width: 540px;
   }
   #frame{
     width: 244px;
@@ -364,8 +455,12 @@
   #sub-container{
     width: 516px;
   }
+  .background {
+    margin: auto;
+    width: 600px;
+  }
   #box-challenge{
-    width: 416px;
+    width: 450px;
   }
   #frame1{
       width: 205px;
@@ -545,7 +640,7 @@
  
  }
 
- @media (max-width: 499px){
+ @media (max-width: 460px){
   h5{
     font-size: 12px;
   }
@@ -554,38 +649,49 @@
     font-size: 28px;
   }
   #sub-container{
-    width: 366px;
+    width: 400px;
+  }
+  .background {
+    box-shadow: 1px 1px 3px 3px rgba(45, 13, 97, 0);
+    border-radius: 20px;
+    background-color: rgba(11, 0, 21, 0);
+    margin: auto;
+    width: 390;
+  }
+
+  #box-challenge{
+    width: 540px;
   }
   #box-challenge{
     width: 350px;
   }
   #frame1{
       width: 170px;
-      background-image: url('../image/Level-Menu/Responsivo/País.png');
+      background-image: url('/src/assets/images/levelMenu/Responsivo/País.png');
   }
   #frame2{
       width: 170px;
-      background-image: url('../image/Level-Menu/Responsivo/2Animais.jpg')
+      background-image: url('/src/assets/images/levelMenu/Responsivo/2Animais.jpg')
   }
  
   #frame3{
       width: 170px;
-      background-image: url('../image/Level-Menu/Responsivo/3Futebol.jpg')
+      background-image: url('/src/assets/images/levelMenu/Responsivo/3Futebol.jpg')
   }
  
   #frame4{
       width: 170px;
-      background-image: url('../image/Level-Menu/Parte-2/Responsivo/1Frutas.jpg')
+      background-image: url('/src/assets/images/levelMenu/Parte-2/Responsivo/1Frutas.jpg')
   }
  
   #frame5{
       width: 170px;
-      background-image: url('../image/Level-Menu/Responsivo/5Jogos.jpg')
+      background-image: url('/src/assets/images/levelMenu/Responsivo/5Jogos.jpg')
   }
  
   #frame6{
       width: 170px;
-      background-image: url('../image/Level-Menu/Responsivo/1Filme.jpeg')
+      background-image: url('/src/assets/images/levelMenu/Responsivo/1Filme.jpeg')
   }
  
   #frame7{
@@ -598,7 +704,7 @@
  
   #frame9{
       width: 170px;
-      background-image: url('../image/Level-Menu/Responsivo/4Profissão01.jpg')
+      background-image: url('/src/assets/images/levelMenu/Responsivo/4Profissão01.jpg')
   }
  
   #frame10{
@@ -619,17 +725,17 @@
  
   #frame14{
       width: 170px;
-      background-image: url('../image/Level-Menu/Parte-2/Responsivo/6Filosofos.jpeg')
+      background-image: url('/src/assets/images/levelMenu/Parte-2/Responsivo/6Filosofos.jpeg')
   }
  
   #frame15{
       width: 170px;
-      background-image: url('../image/Level-Menu/Parte-2/Responsivo/7Geografia.jpg')
+      background-image: url('/src/assets/images/levelMenu/Parte-2/Responsivo/7Geografia.jpg')
   }
  
   #frame16{
       width: 170px;
-      background-image: url('../image/Level-Menu/Parte-2/Responsivo/8Historia.jpeg')
+      background-image: url('/src/assets/images/levelMenu/Parte-2/Responsivo/8Historia.jpeg')
   }
  
   #frame17{
@@ -642,7 +748,7 @@
  
   #frame19{
       width: 170px;
-      background-image: url('../image/Level-Menu/Responsivo/PaísReverso.png')
+      background-image: url('/src/assets/images/levelMenu/Responsivo/PaísReverso.png')
   }
  
   #frame20{

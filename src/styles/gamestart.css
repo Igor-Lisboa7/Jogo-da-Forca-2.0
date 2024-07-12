@@ -1,6 +1,9 @@
 #container {
+    width: 96%;
+    margin: auto;
+    border-radius: 20px;
     font-family: 'Cormorant', serif;
-    background-image: url("../image/background/Dia2.png");
+    background-image: url("/src/assets/images/background/Noite2.jpg");
     background-size:100% 100%;
 }
 
@@ -164,8 +167,33 @@
     border-radius: 2px;
 }
 
+@media (max-width: 1450) {
+    #container {
+        width: 96%;
+        margin: auto;
+        border-radius: 20px;
+        font-family: 'Cormorant', serif;
+        background-image: url("/src/assets/images/background/Noite2-1.jpg"); background-size:100% 100%;
+    }
+}
+@media (max-width: 1150px) {
+    #container {
+        width: 96%;
+        margin: auto;
+        border-radius: 20px;
+        font-family: 'Cormorant', serif;
+        background-image: url("/src/assets/images/background/Noite2-2.jpg"); 
+    }
+}
 @media (max-width: 800px) {
 
+    #container {
+        width: 96%;
+        margin: auto;
+        border-radius: 20px;
+        font-family: 'Cormorant', serif;
+        
+    }
 
     #sub-container {
         width: 720px;
